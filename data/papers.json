@@ -1,0 +1,591 @@
+{
+  "papers": [
+    {
+      "id": "sx_appendix_2016",
+      "subject": "math",
+      "title": "数学：大纲附录中标注年份的真题",
+      "badge": "真题（标注年份）",
+      "origin": "真题",
+      "yearNote": "2007 / 2008 / 2009 / 2010",
+      "source": "天津市高职院校春季招收中职毕业生考试数学科目考试大纲（2016 年 9 月修订）第六部分「题型示例」，各题后标注了来源年份",
+      "note": "原卷（2020–2026 各年完整试卷）在公开渠道只能拿到付费图片版，本站未取到文字原卷，因此不冒充近年真题；这里收录的是官方大纲附录里明确标注年份的题面。答案与解析为本站自解，非官方公布答案。",
+      "items": [
+        {
+          "id": "sx_2010_1",
+          "label": "选择题 1",
+          "type": "choice",
+          "stem": "已知全集 U={1,2,3,4,5}，且 ∁U A={2,4}，∁U B={2,3,5}，则 A∩B=（　）。",
+          "answer": "B",
+          "solution": "由补集反推 A={1,3,5}、B={1,4}，故 A∩B={1}。选项 B。",
+          "answerSource": "本站自解",
+          "choices": [
+            "{2}",
+            "{1}",
+            "{1,3,4,5}",
+            "{2,3,4,5}"
+          ],
+          "year": 2010,
+          "topicId": "cnm_004"
+        },
+        {
+          "id": "sx_2009_1",
+          "label": "选择题 2",
+          "type": "choice",
+          "stem": "已知函数 f(x)=(k-1)x²+2kx+3 为偶函数，则其单调递减区间为（　）。",
+          "answer": "B",
+          "solution": "偶函数要求一次项系数 2k=0，即 k=0，得 f(x)=-x²+3，开口向下，对称轴 x=0，故在 (0,+∞) 上单调递减。选项 B。",
+          "answerSource": "本站自解",
+          "choices": [
+            "(-∞,0)",
+            "(0,+∞)",
+            "(-∞,1)",
+            "(-∞,+∞)"
+          ],
+          "year": 2009,
+          "topicId": "cnm_011"
+        },
+        {
+          "id": "sx_2007_1",
+          "label": "选择题 3",
+          "type": "choice",
+          "stem": "通过平面 α 内一点 P，与平面成 30° 角的直线有（　）。",
+          "answer": "D",
+          "solution": "过 P 作与平面成 30° 的直线，绕 P 点的法线方向旋转可得到整族直线（一个圆锥面），故有无数多条。选项 D。",
+          "answerSource": "本站自解",
+          "choices": [
+            "1 条",
+            "2 条",
+            "4 条",
+            "无数多条"
+          ],
+          "year": 2007
+        },
+        {
+          "id": "sx_2009_2",
+          "label": "选择题 4",
+          "type": "choice",
+          "stem": "袋中装有 3 个黑球和 2 个白球，一次取出两个球，恰好是黑、白球各一个的概率为（　）。",
+          "answer": "D",
+          "solution": "基本事件数 C(5,2)=10，符合条件 C(3,1)·C(2,1)=6，概率 6/10=3/5。选项 D。",
+          "answerSource": "本站自解",
+          "choices": [
+            "1/5",
+            "3/10",
+            "2/5",
+            "3/5"
+          ],
+          "year": 2009,
+          "topicId": "cnm_033"
+        },
+        {
+          "id": "sx_2010_2",
+          "label": "选择题 5",
+          "type": "choice",
+          "stem": "已知抛物线的顶点在原点，焦点在 x 轴上，点 P(1,m) 在抛物线上，且与焦点的距离为 4，则该抛物线的标准方程是（　）。",
+          "answer": "B",
+          "solution": "设 y²=2px(p>0)，焦点 (p/2,0)。由抛物线定义，P 到焦点距离等于到准线距离，即 1+p/2=4，得 p=6，故 y²=12x。选项 B。",
+          "answerSource": "本站自解",
+          "choices": [
+            "y²=6x",
+            "y²=12x",
+            "y²=-6x",
+            "y²=-12x"
+          ],
+          "year": 2010
+        },
+        {
+          "id": "sx_2010_3",
+          "label": "填空题 1",
+          "type": "blank",
+          "stem": "计算：[(6^(-2))^(-1/2) - 2]^(-1) × (3/4)^0 × 64^(1/3) = ____。",
+          "answer": "1",
+          "solution": "(6^-2)^(-1/2)=6^1=6，6-2=4，4^(-1)=1/4；(3/4)^0=1；64^(1/3)=4。相乘得 1/4×1×4=1。",
+          "answerSource": "本站自解",
+          "year": 2010,
+          "topicId": "cnm_012"
+        },
+        {
+          "id": "sx_2008_1",
+          "label": "填空题 2",
+          "type": "blank",
+          "stem": "函数 y = 1/(x+1) + √(2-|x|) 的定义域是 ____。",
+          "answer": "[-2,-1)∪(-1,2]",
+          "solution": "分母 x+1≠0 得 x≠-1；根号内 2-|x|≥0 得 -2≤x≤2。取交集为 [-2,-1)∪(-1,2]。",
+          "answerSource": "本站自解",
+          "year": 2008,
+          "topicId": "cnm_009"
+        },
+        {
+          "id": "sx_2010_4",
+          "label": "填空题 3",
+          "type": "blank",
+          "stem": "当函数 y = 2sin(3x + π/6) 取得最大值时，x = ____。",
+          "answer": "x = π/9 + 2kπ/3（k∈Z）",
+          "solution": "最大值为 2，此时 3x+π/6 = π/2+2kπ，解得 x = π/9+2kπ/3。",
+          "answerSource": "本站自解",
+          "year": 2010,
+          "topicId": "cnm_021"
+        },
+        {
+          "id": "sx_2009_3",
+          "label": "填空题 4",
+          "type": "blank",
+          "stem": "在等比数列 {a_n} 中，公比 q=3，前 n 项和为 S_n，则 S4/S2 = ____。",
+          "answer": "10",
+          "solution": "S4/S2 = [(1-3^4)/(1-3)] / [(1-3^2)/(1-3)] = (1-81)/(1-9) = 10。",
+          "answerSource": "本站自解",
+          "year": 2009
+        },
+        {
+          "id": "sx_2010_5",
+          "label": "解答题 1",
+          "type": "answer",
+          "stem": "已知二次函数 y=f(x) 满足条件 f(0)=1 和 f(x+1)-f(x)=2x。（Ⅰ）求函数的解析式；（Ⅱ）求函数在区间 [1,2] 上的最大值和最小值。",
+          "answer": "（Ⅰ）f(x)=x²-x+1；（Ⅱ）最小值 f(1)=1，最大值 f(2)=3",
+          "solution": "设 f(x)=ax²+bx+c，由 f(0)=1 得 c=1；f(x+1)-f(x)=2ax+a+b=2x，比较系数得 a=1、a+b=0 即 b=-1。故 f(x)=x²-x+1，对称轴 x=1/2 不在 [1,2] 内，函数在 [1,2] 单调递增，最小 f(1)=1、最大 f(2)=3。",
+          "answerSource": "本站自解",
+          "year": 2010
+        },
+        {
+          "id": "sx_2008_2",
+          "label": "解答题 2",
+          "type": "answer",
+          "stem": "在等比数列 {a_n} 中，S_n 为前 n 项的和，设 a_n>0，a_2=4，S_4-a_1=28。求 a_(n+3)/a_n 的值。",
+          "answer": "8",
+          "solution": "S_4-a_1=a_2+a_3+a_4=4+4q+4q²=28，即 q²+q-6=0，q=2（q=-3 与 a_n>0 矛盾，舍去）。a_(n+3)/a_n=q³=8。",
+          "answerSource": "本站自解",
+          "year": 2008
+        },
+        {
+          "id": "sx_2010_6",
+          "label": "解答题 3",
+          "type": "answer",
+          "stem": "已知 tanθ=-3。（Ⅰ）求 tan2θ 的值；（Ⅱ）求 [2cos²(θ/2)+sinθ-1] / [√2 sin(π/4-θ)] 的值。",
+          "answer": "（Ⅰ）3/4；（Ⅱ）-1/2",
+          "solution": "（Ⅰ）tan2θ=2tanθ/(1-tan²θ)=(-6)/(1-9)=3/4。（Ⅱ）分子 2cos²(θ/2)-1+sinθ=cosθ+sinθ；分母 √2·(sinπ/4cosθ-cosπ/4sinθ)=cosθ-sinθ。比值为 (1+tanθ)/(1-tanθ)=(-2)/4=-1/2。",
+          "answerSource": "本站自解",
+          "year": 2010,
+          "topicId": "cnm_018"
+        },
+        {
+          "id": "sx_2008_3",
+          "label": "解答题 4",
+          "type": "answer",
+          "stem": "已知椭圆 x²/a² + y²/b² = 1 (a>b>0) 的短轴长为 2，它的一个焦点恰好是抛物线 y²=4x 的焦点。（Ⅰ）求椭圆的方程；（Ⅱ）若上述椭圆的左焦点到直线 y=x+m 的距离等于 √2，求该直线的方程。",
+          "answer": "（Ⅰ）x²/2+y²=1；（Ⅱ）y=x+3 或 y=x-1",
+          "solution": "（Ⅰ）短轴长 2b=2 得 b=1；抛物线 y²=4x 焦点为 (1,0)，即 c=1，故 a²=b²+c²=2，椭圆为 x²/2+y²=1。（Ⅱ）左焦点 (-1,0)，直线 x-y+m=0，距离 |-1+m|/√2=√2，得 |m-1|=2，m=3 或 -1，直线为 y=x+3 或 y=x-1。",
+          "answerSource": "本站自解",
+          "year": 2008
+        }
+      ]
+    },
+    {
+      "id": "en_sample_2022",
+      "subject": "english",
+      "title": "英语：考试说明典型题示例",
+      "badge": "官方示例题",
+      "origin": "示例题",
+      "yearNote": "未标年份（2022 年 11 月修订版说明）",
+      "source": "天津市高职分类招生（面向中职毕业生）考试英语科目考试说明（2022 年 11 月修订）第四部分「典型题示例」，原卷未标注年份",
+      "note": "示例题是官方用来展示题型的样题，不等于某年真题。其中单项选择、英译汉在 2027 年新结构（100 分、42 题）中已取消，保留仅作练习；答案取自说明原文。",
+      "items": [
+        {
+          "id": "en_2022_1",
+          "label": "单项选择 1",
+          "type": "choice",
+          "stem": "Tom often closes his eyes ___ he is thinking hard.",
+          "answer": "D",
+          "solution": "as 表“随着/因为”，since 表“自从/既然”，though 表“虽然”，when 表“当……时”。句中强调“在思考时”，用 when 最自然。答案 D。",
+          "answerSource": "官方",
+          "choices": [
+            "as",
+            "since",
+            "though",
+            "when"
+          ],
+          "topicId": "cne_p020"
+        },
+        {
+          "id": "en_2022_2",
+          "label": "单项选择 2",
+          "type": "choice",
+          "stem": "China is the place ___ silk was first made.",
+          "answer": "A",
+          "solution": "先行词 the place 在从句中作地点状语，用关系副词 where。答案 A。",
+          "answerSource": "官方",
+          "choices": [
+            "where",
+            "how",
+            "when",
+            "who"
+          ],
+          "topicId": "cne_p020"
+        },
+        {
+          "id": "en_2022_3",
+          "label": "单项选择 3",
+          "type": "choice",
+          "stem": "Because of the heavy rain, the game was ___ for a few days.",
+          "answer": "B",
+          "solution": "put out 扑灭，put off 推迟，put up 张贴/搭起，put away 收起。比赛因大雨推迟，用 put off。答案 B。",
+          "answerSource": "官方",
+          "choices": [
+            "put out",
+            "put off",
+            "put up",
+            "put away"
+          ]
+        },
+        {
+          "id": "en_2022_cloze",
+          "label": "完形填空（10 空）",
+          "type": "cloze",
+          "stem": "阅读短文，从每空四个选项中选出最佳选项（共 10 空）。",
+          "answer": "1.C 2.A 3.A 4.D 5.C 6.D 7.A 8.B 9.C 10.B",
+          "solution": "全篇讲 Brown 夫妇度假寄养狗 Blackie、结果领回错狗的故事。逐空依据上下文语义与常见搭配判断：while they were away（在他们外出期间）、their owners were away（主人不在）、just before they left（出发前）、at the end of their holiday（假期结束时）、might be closed（可能已关门）、drove off to collect Blackie（去接回）、hasn't enjoyed his stay（并不享受寄养）、barked all the way home（一路叫）、looked at the dog carefully（仔细看）、only complaining that（只是在抱怨）。",
+          "answerSource": "官方",
+          "choices": [
+            "1. A. since B. because C. while D. although",
+            "2. A. owners B. friends C. trainers D. parents",
+            "3. A. left B. waited C. applied D. pay",
+            "4. A. middle B. beginning C. break D. end",
+            "5. A. open B. noisy C. closed D. clean",
+            "6. A. ask B. think C. send D. collect",
+            "7. A. enjoyed B. admired C. respected D. hated",
+            "8. A. day B. way C. time D. road",
+            "9. A. quickly B. politely C. carefully D. rudely",
+            "10. A. thinking B. complaining C. guessing D. joking"
+          ],
+          "passage": "Mr. and Mrs. Brown were going abroad for their holiday. They had a dog called Blackie which they were very fond of, but they could not take him with them. So they had to look for a good place to leave him in ___1___ they were away. At last they found a place which looked after dogs when their ___2___ were away. They took Blackie there just before they ___3___ for their holiday, and sadly said good-bye to him.\n\nAt the ___4___ of their holiday, they got back to England very late at night. They thought the place where Blackie was staying might be ___5___ at that hour, so they decided to wait until the next morning before going to get him back.\n\nThe next morning Mr. Brown drove off happily to ___6___ Blackie. When he arrived home with the dog, he said to his wife, \"Do you know, dear, I don't think Blackie has ___7___ his stay very much. He barked all the ___8___ home in the car as if he wanted to tell me something.\"\n\nMrs. Brown looked at the dog ___9___ and then answered, \"You are quite right, dear. He was certainly trying to tell you something. But he wasn't telling you that he hadn't enjoyed his stay. He was only ___10___ that you were bringing the wrong dog home. This isn't Blackie.\""
+        },
+        {
+          "id": "en_2022_rd1",
+          "label": "阅读理解 1",
+          "type": "choice",
+          "stem": "The lady was thankful to the doctor because ___.",
+          "answer": "D",
+          "solution": "首段点明医生治好她病重的孩子，第二段她说“you have saved my little son”。答案 D。",
+          "answerSource": "官方",
+          "choices": [
+            "he had saved her life",
+            "he often called on her",
+            "he had lent her some money",
+            "he had saved her son's life"
+          ],
+          "topicId": "cne_p011",
+          "passage": "A famous doctor once received a little child who was badly ill. Thanks to his skill and care, his young patient got well and was soon able to get up and run about again.\n\nThe child's mother was very much pleased and called on the doctor to thank him for what he had done for her child. \"Doctor,\" she said, \"you have saved my little son. I don't know how to thank you enough. I feel that money alone was not enough to repay you, so I have made this little purse with my own hands as a gift to express my thanks. I hope you will accept it.\"\n\nThe doctor stood up and said coldly, \"Madam, a little present like that is very nice between friends, but a doctor needs to be paid properly for what he has done.\" The lady was so surprised and hurt that she could not reply for a moment. Then she said quietly, \"Perhaps you will tell me how much your fee is?\"\n\n\"Fifty pounds,\" he answered.\n\nThe lady opened the little purse and took out four fifty-pound bank notes. She handed one of them to the doctor, and put the other three back into the purse. She put the purse into her handbag and, saying good-bye to the doctor, went out of the room."
+        },
+        {
+          "id": "en_2022_rd2",
+          "label": "阅读理解 2",
+          "type": "choice",
+          "stem": "The doctor refused the lady's purse because he thought ___.",
+          "answer": "B",
+          "solution": "医生说“a doctor needs to be paid properly”，即认为一个手工钱包抵不了诊费。答案 B。",
+          "answerSource": "官方",
+          "choices": [
+            "the purse was too good for him",
+            "the lady didn't pay him the fee",
+            "the lady was not kind to him",
+            "the purse was not beautiful"
+          ],
+          "topicId": "cne_p013"
+        },
+        {
+          "id": "en_2022_rd3",
+          "label": "阅读理解 3",
+          "type": "choice",
+          "stem": "How did the lady feel after hearing the doctor's words?",
+          "answer": "D",
+          "solution": "原文“so surprised and hurt that she could not reply”，对应 Shocked（震惊）。答案 D。",
+          "answerSource": "官方",
+          "choices": [
+            "Worried.",
+            "Interested.",
+            "Frightened.",
+            "Shocked."
+          ],
+          "topicId": "cne_p013"
+        },
+        {
+          "id": "en_2022_rd4",
+          "label": "阅读理解 4",
+          "type": "choice",
+          "stem": "The money in the purse was ___.",
+          "answer": "A",
+          "solution": "钱包里有四张 50 英镑、共 200 英镑，而诊费只要 50 英镑，远多于诊费。答案 A。",
+          "answerSource": "官方",
+          "choices": [
+            "much more than the medical fee",
+            "not enough for the medical fee",
+            "less than 200 pounds",
+            "more than 200 pounds"
+          ],
+          "topicId": "cne_p011"
+        },
+        {
+          "id": "en_2022_rd5",
+          "label": "阅读理解 5",
+          "type": "choice",
+          "stem": "How do you think the doctor would feel in the end?",
+          "answer": "C",
+          "solution": "医生只收 50 英镑、错失 150 英镑，且被对方冷静回应，应是后悔且尴尬（sorry and regret）。答案 C。",
+          "answerSource": "官方",
+          "choices": [
+            "Sorry and worried.",
+            "Regret and proud.",
+            "Sorry and regret.",
+            "Excited and proud."
+          ],
+          "topicId": "cne_p013"
+        },
+        {
+          "id": "en_2022_dlg",
+          "label": "补全对话（形式一，5 空）",
+          "type": "dialogue",
+          "stem": "从 7 个选项中选出 5 个最恰当的句子补全对话。",
+          "answer": "1.E 2.A 3.F 4.G 5.B",
+          "solution": "①对方问“this is Chris”后接“are you free this Friday evening”（E）；②有票邀请同行“I wonder if you can go with me”（A）；③问开始时间“what time does it begin”（F）；④约定地点时间“how about meeting at the entrance at 6:45”（G）；⑤反问建议“shall we”（B）。",
+          "answerSource": "官方",
+          "choices": [
+            "A. I wonder if you can go with me",
+            "B. shall we",
+            "C. which one do you prefer",
+            "D. I'd like to go to a concert",
+            "E. are you free this Friday evening",
+            "F. what time does it begin",
+            "G. how about meeting at the entrance at 6:45"
+          ],
+          "passage": "A: Hello! This is Linda speaking.\nB: Hello, Linda, this is Chris, ___1___?\nA: Yes, why?\nB: There's a good concert, and I've got two tickets. ___2___.\nA: That's great! Well, ___3___?\nB: 7 o'clock. But ___4___?\nA: OK. I think I can make it.\nB: After the concert, we'll go to a restaurant for supper, ___5___?\nA: Wonderful! Why don't we go to a Chinese restaurant?\nB: Why not? OK, see you Friday.\nA: See you then. Bye!"
+        },
+        {
+          "id": "en_2022_qa",
+          "label": "阅读回答（5 题）",
+          "type": "qa",
+          "stem": "阅读短文，用英语回答下列 5 个问题。",
+          "answer": "1. The story happened in Harlem. 2. To say good-bye / For final good-byes. 3. Her air ticket to Spain. 4. Neither of them stayed in the taxi. 5. People in Harlem gave her four new suitcases, new clothes, and many other things.",
+          "solution": "本题为主观题，答案表述可有多种，只要信息点齐全、语法正确即可。官方示例给出上述参考答案。",
+          "answerSource": "官方",
+          "choices": [
+            "1. In which city did the story happen?",
+            "2. Why did Patricia Chance and her friend go upstairs?",
+            "3. What did Miss Chance have when she found the taxi was gone?",
+            "4. What mistake did Patricia Chance and her friend make?",
+            "5. What was the happy ending of Patricia's bad dream?"
+          ],
+          "passage": "Often a bad dream had a happy ending. And that's what happened to a beautiful black girl, Patricia Chance. Last Saturday Patricia was getting ready to take off from Kennedy Airport. She was flying to Spain and study there. She had spent many hours making her own clothes and saving pennies to buy shoes, books, and other things she needed. She and a friend stopped a taxi at the door of her home. They loaded the taxi with everything she was taking with her. Then they made a mistake. They left the taxi waiting while they went back upstairs for final good-byes. When they returned, the taxi was gone. All Miss Chance had was her air ticket to Spain. Everything else had been stolen by the taxi driver. People in Harlem heard what had happened. Immediately Miss Chance had four new suitcases, new clothes, and many other things. People who cared had given the bad dream a happy ending."
+        },
+        {
+          "id": "en_2022_tr",
+          "label": "英译汉（5 句，2027 已不考）",
+          "type": "translation",
+          "stem": "阅读短文，将画线部分译成汉语。",
+          "answer": "1. 这是世界上最流行的爱好之一。2. 第一枚邮票出现后不久，邮票收藏就开始了。3. 他们开始购买、销售很难找到的邮票。4. 有些人只收集一个国家的邮票。5. 无论你收集什么种类的邮票，集邮都是很有意思的事。",
+          "solution": "该题型在 2027 年英语试卷中已取消（改为阅读回答问题），收录仅作语感与翻译练习。",
+          "answerSource": "官方",
+          "passage": "In every country of the world, there are people who like to collect stamps. Young people and old people, presidents and kings collect stamps. ①It is one of the most popular hobbies in the world. ②Stamp collecting started soon after the first stamp was made. Stamp collectors soon began trading stamps with each other. ③They began to buy and sell the ones that were hard to find. Many people collect only stamps with pictures of other places. ④Some collect stamps that come from only one country. Others collect stamps that show only birds or animals. You might collect only stamps that are all the same color. ⑤No matter what kind of stamps you collect, stamp collecting can be fun."
+        }
+      ]
+    },
+    {
+      "id": "zh_sample_2022",
+      "subject": "chinese",
+      "title": "语文：考试说明典型题示例（节选）",
+      "badge": "官方示例题",
+      "origin": "示例题",
+      "yearNote": "未标年份（2022 年 11 月修订版说明）",
+      "source": "天津市高职分类招生（面向中职毕业生）考试语文科目考试说明（2022 年 11 月修订）第五部分「典型题示例」，原卷未标注年份",
+      "note": "官方示例共 39 题，含文言文、诗歌、现代文与作文。这里只收题面完整、答案可核验的客观题与默写题；主观题（阅读简答、作文）只列原题不代答。答案与解析为本站自解，非官方答案。",
+      "items": [
+        {
+          "id": "zh_2022_3",
+          "label": "示例 3（字形）",
+          "type": "choice",
+          "stem": "下列词语中，有错别字的一组是（　）。",
+          "answer": "B",
+          "solution": "B 项“礼上往来”应为“礼尚往来”。其余三项无错别字。",
+          "answerSource": "本站自解",
+          "choices": [
+            "风雅 浅薄 衣锦还乡 豁然开朗",
+            "睿智 剔除 礼上往来 防微杜渐",
+            "安逸 下野 残羹冷炙 卧薪尝胆",
+            "俨然 肤浅 惊弓之鸟 泰然自若"
+          ],
+          "topicId": "cnc_p002"
+        },
+        {
+          "id": "zh_2022_4",
+          "label": "示例 4（字形）",
+          "type": "choice",
+          "stem": "下列句子中，没有错别字的一句是（　）。",
+          "answer": "D",
+          "solution": "A“反映热烈”应为“反响热烈”；B“貌和神离”应为“貌合神离”；C“迫不急待”应为“迫不及待”；D 无错别字。",
+          "answerSource": "本站自解",
+          "choices": [
+            "按照上级布置，他们认真组织了一系列观摩课，师生们反映热烈。",
+            "别看他俩在一起有说有笑，其实是貌和神离。",
+            "我们都迫不急待地想知道，究竟是谁能赢得最后的胜利。",
+            "这哥儿俩，一个标新立异，一个循规蹈矩，差别太大了！"
+          ],
+          "topicId": "cnc_p002"
+        },
+        {
+          "id": "zh_2022_10",
+          "label": "示例 10（病句）",
+          "type": "choice",
+          "stem": "下列各句中，没有语病的一句是（　）。",
+          "answer": "B",
+          "solution": "A“达到位居全国前列”句式杂糅、搭配不当；C“是因为……所造成的”句式杂糅；D“200 余本左右”前后重复；B 无语病。",
+          "answerSource": "本站自解",
+          "choices": [
+            "展望未来，我市终身教育体系将更加完善，终身学习支持服务能力将显著提升，学习型城市将努力达到位居全国前列。",
+            "“人民英雄”国家荣誉称号获得者、中国工程院院士、天津中医药大学校长张伯礼，通过中西医结合、中西医并用，将“中国方案”应用于抗击疫情中。",
+            "每年的“书香天津·全民阅读”活动，已成为一场“书香天津·全民阅读”的文化盛宴，是因为活动从城市到乡村、从社会到课堂、从线上到线下开展所造成的。",
+            "日前，新华书店 24 小时自助书柜在人民公园入口处设立，市民可通过手机线上支付购买书柜内的 200 余本左右不同类别的图书，在游园的同时品味书香。"
+          ],
+          "topicId": "cnc_p006"
+        },
+        {
+          "id": "zh_2022_13",
+          "label": "示例 13（得体）",
+          "type": "choice",
+          "stem": "下列句子表达得体的一项是（　）。",
+          "answer": "C",
+          "solution": "A“必须留人，后果自负”语气生硬；B“光临”是敬称对方到来，不能用于自己；D“笑纳”是请对方收下的敬辞，不能用于自己收下；C 得体。",
+          "answerSource": "本站自解",
+          "choices": [
+            "物业办本周入户收物业费，各户必须留人，否则，后果自负。",
+            "这次我们专程从全国各地光临母校，参加 80 年校庆活动。",
+            "我们敬请您担任我社顾问，如能得到应允，将是我们莫大的荣幸。",
+            "多年不见的学生捎来了家乡的土产，我推辞不了，最后只好笑纳了。"
+          ],
+          "topicId": "cnc_p024"
+        },
+        {
+          "id": "zh_2022_14",
+          "label": "示例 14（修辞）",
+          "type": "choice",
+          "stem": "对下列句子的修辞方法判断正确的一项是（　）。①指导员讲得真来劲，嘎子竖起耳朵听。②灿烂的阳光下盛开的百合花就是您的笑容。③你呢，你难道没有应该受责备的地方吗？④郭全海解下青骒马，翻身撵玉石眼去了。",
+          "answer": "B",
+          "solution": "①“竖起耳朵听”把嘎子当物写，是比拟；②“百合花就是您的笑容”是暗喻；③“难道……吗”是反问；④用“青骒马”“玉石眼”代指马，是借代。",
+          "answerSource": "本站自解",
+          "choices": [
+            "比拟 夸张 设问 对偶",
+            "比拟 比喻 反问 借代",
+            "比喻 比喻 设问 借代",
+            "比喻 夸张 反问 对偶"
+          ],
+          "topicId": "cnc_p023"
+        },
+        {
+          "id": "zh_2022_15",
+          "label": "示例 15（修辞）",
+          "type": "choice",
+          "stem": "下列句子中不含比喻修辞的一项是（　）。",
+          "answer": "C",
+          "solution": "A“卷起千堆雪”以雪喻浪；B“当作蛛丝一样”是明喻；D“仿佛在牛乳中洗过”“像笼着轻纱的梦”是比喻；C 的“仿佛”表示推测比较，不构成比喻。",
+          "answerSource": "本站自解",
+          "choices": [
+            "乱石穿空，惊涛拍岸，卷起千堆雪。",
+            "他对这一切毫不在意，把它们当作蛛丝一样轻轻抹去。",
+            "满头是倔强得一簇簇直竖起来的头发，仿佛处处在告白他对现实社会的不调和。",
+            "叶子和花仿佛在牛乳中洗过一样；又像笼着轻纱的梦。"
+          ],
+          "topicId": "cnc_p023"
+        },
+        {
+          "id": "zh_2022_16",
+          "label": "示例 16（文学常识）",
+          "type": "choice",
+          "stem": "下列说法不正确的一项是（　）。",
+          "answer": "C",
+          "solution": "《茶馆》的作者是老舍，曹禺的代表作是《雷雨》《日出》等。其余三项均正确。",
+          "answerSource": "本站自解",
+          "choices": [
+            "《诗经》是我国第一部诗歌总集，共 305 篇，因此又称“诗三百”。",
+            "《山居秋暝》是王维的山水田园诗名篇，充满诗情画意，令人神往。",
+            "《茶馆》是曹禺的代表作，展示了人民与旧时代之间的尖锐矛盾。",
+            "季羡林在《幽径悲剧》中表达了自己矢志不渝地维护真、善、美的决心。"
+          ],
+          "topicId": "cnc_p009"
+        },
+        {
+          "id": "zh_2022_17",
+          "label": "示例 17（默写）",
+          "type": "blank",
+          "stem": "按课文原句填空（示例要求选做三句）：(1) 明月松间照，____。(《山居秋暝》) (2) 那河畔的金柳，是夕阳中的新娘；____，在我的心头荡漾。(《再别康桥》) (3) 锲而舍之，朽木不折；锲而不舍，____。(《劝学》) (4) 师者，____。(《师说》)",
+          "answer": "(1) 清泉石上流 (2) 波光里的艳影 (3) 金石可镂 (4) 所以传道受业解惑也",
+          "solution": "四句均为教材必背篇目原句，注意“镂”“受业”的写法。",
+          "answerSource": "本站自解",
+          "topicId": "cnc_p014"
+        },
+        {
+          "id": "zh_2022_22",
+          "label": "示例 22（诗歌鉴赏）",
+          "type": "choice",
+          "stem": "阅读王维《终南山》“太乙近天都，连山接海隅。白云回望合，青霭入看无……”，对这首诗的分析，不准确的一项是（　）。",
+          "answer": "B",
+          "solution": "诗中并无“淙淙流水声、坎坎伐木声、游人樵夫问答声”的描写，B 项把山水诗误读为声音交响，故不准确。",
+          "answerSource": "本站自解",
+          "choices": [
+            "诗中富有画意，既有近笔远墨，也有实写虚拟，尺素画轴，景致纷呈。",
+            "全诗八句皆寓景于声：淙淙的流水声，坎坎的伐木声，伴和着游人樵夫的问答声，分明就是一首交响乐。",
+            "这首诗浑朴自然，简洁淡雅，读来圆活通畅，音韵协和，令人心动神驰。",
+            "诗人善于“以不全求全”，仅以 40 个字为偌大的终南山传神写照，可谓达到了“意余于象”的艺术境界。"
+          ],
+          "topicId": "cnc_p015"
+        },
+        {
+          "id": "zh_2022_25",
+          "label": "示例 25（词鉴赏）",
+          "type": "choice",
+          "stem": "对苏轼《念奴娇·赤壁怀古》的分析，不准确的一项是（　）。",
+          "answer": "D",
+          "solution": "“人生如梦，一尊还酹江月”含旷达自解之意，不是对现实的绝望与随波逐流；D 项理解偏颇。",
+          "answerSource": "本站自解",
+          "choices": [
+            "词的开篇从滚滚东去的长江入笔，把大江与千古人物联系起来，展现了一个极为悠久而广阔的时空背景。",
+            "词的上片重在写景，描绘赤壁的壮丽景色，将时间和空间的距离缩短到三国时代的英雄豪杰身上。",
+            "“谈笑间，樯橹灰飞烟灭”一句，抓住了水战火攻的特点，集中概括了这次战争胜利的过程。",
+            "“人生如梦”一句，情绪消沉，表达了作者对现实的无奈和绝望，只好随波逐流，醉情山水了。"
+          ],
+          "topicId": "cnc_p015"
+        },
+        {
+          "id": "zh_2022_29",
+          "label": "示例 29（小说阅读）",
+          "type": "choice",
+          "stem": "关于《荷花淀》语段，下列说法不正确的一项是（　）。",
+          "answer": "A",
+          "solution": "《荷花淀》主要塑造的是以水生嫂为代表的青年妇女群像，不是“以小队长为代表的群体人物形象”；A 项不准确。",
+          "answerSource": "本站自解",
+          "choices": [
+            "上面语段选自孙犁创作的小说《荷花淀》，《荷花淀》是一篇短篇小说，主要塑造了以小队长为代表的群体人物形象。",
+            "上面语段的主要故事情节，写妇女们碰巧把鬼子引进了埋伏圈使伏击战很彻底，她们助夫杀敌有功劳，是小说内容的高潮部分。",
+            "上面语段语言优美，风格清新，有浓厚的乡土气息，体现了“荷花淀派”的创作风格，富有艺术感染力。",
+            "上面语段主要通过写荷花淀伏击战，表现了白洋淀地区人民的抗日斗争生活及他们英勇抗击侵略者的伟大爱国主义精神。"
+          ],
+          "topicId": "cnc_p010"
+        },
+        {
+          "id": "zh_2022_31",
+          "label": "示例 31（现代文阅读）",
+          "type": "choice",
+          "stem": "关于《莫高窟（节选）》，下列说法正确的一项是（　）。",
+          "answer": "C",
+          "solution": "原文强调莫高窟“不是修建于一时，兴盛于一时”，而是层层累积，故可以傲视异邦古迹；C 项正确。",
+          "answerSource": "本站自解",
+          "choices": [
+            "作者喜爱莫高窟是因为莫高窟“远藏”于深山之中，远离“人口密集的城市”。",
+            "“鼻子冻得通红的外国人”由于不懂中文，无法欣赏莫高窟艺术。",
+            "“莫高窟可以傲视异邦古迹”是因为它不是修建于一时，兴盛于一时。",
+            "作者感到“颇觉劳累”，是因为连日跋涉，对六十华里的路程感到疲惫。"
+          ],
+          "topicId": "cnc_p013"
+        }
+      ]
+    }
+  ],
+  "updated": "2026-11-16",
+  "missingNote": "机械类专业：公开渠道未取到可核验的真题原卷文字（学科网等为付费图片版），本站不编造机械真题。"
+}

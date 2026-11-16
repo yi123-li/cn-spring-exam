@@ -1,0 +1,896 @@
+[
+  {
+    "topicId": "cnj_002",
+    "prerequisiteId": "cnj_001",
+    "strength": "soft",
+    "reason": "尺寸标注要画在图纸上，先知道图线与幅面的基本规定。"
+  },
+  {
+    "topicId": "cnj_003",
+    "prerequisiteId": "cnj_001",
+    "strength": "soft",
+    "reason": "三视图靠图线表达轮廓，先认得粗实线与虚线才能读图。"
+  },
+  {
+    "topicId": "cnj_004",
+    "prerequisiteId": "cnj_003",
+    "strength": "hard",
+    "reason": "点的投影是三个视图投影规律的起点，先懂三视图怎么形成。"
+  },
+  {
+    "topicId": "cnj_005",
+    "prerequisiteId": "cnj_004",
+    "strength": "hard",
+    "reason": "直线由两点确定，先会画点的三面投影。"
+  },
+  {
+    "topicId": "cnj_006",
+    "prerequisiteId": "cnj_005",
+    "strength": "hard",
+    "reason": "平面由直线围成，先掌握直线的投影特性。"
+  },
+  {
+    "topicId": "cnj_007",
+    "prerequisiteId": "cnj_006",
+    "strength": "hard",
+    "reason": "基本几何体的视图由面与线围成，要先会判断面、线的投影。"
+  },
+  {
+    "topicId": "cnj_008",
+    "prerequisiteId": "cnj_007",
+    "strength": "hard",
+    "reason": "组合体由基本几何体叠加或切割而成，先认得基本体的三视图。"
+  },
+  {
+    "topicId": "cnj_009",
+    "prerequisiteId": "cnj_008",
+    "strength": "hard",
+    "reason": "剖视图读的是组合体内部，先会按形体分析法读组合体三视图。"
+  },
+  {
+    "topicId": "cnj_010",
+    "prerequisiteId": "cnj_003",
+    "strength": "soft",
+    "reason": "机构运动要画机构简图并读投影关系，先会看图。"
+  },
+  {
+    "topicId": "cnj_011",
+    "prerequisiteId": "cnj_010",
+    "strength": "soft",
+    "reason": "凸轮与连杆同属常用机构，先熟悉机构的基本运动形式。"
+  },
+  {
+    "topicId": "cnj_012",
+    "prerequisiteId": "cnj_002",
+    "strength": "soft",
+    "reason": "螺纹的尺寸与标注要先看得懂图纸上的螺纹标记。"
+  },
+  {
+    "topicId": "cnj_013",
+    "prerequisiteId": "cnj_002",
+    "strength": "soft",
+    "reason": "键与销的规格靠图样标注确定，先会读尺寸与符号。"
+  },
+  {
+    "topicId": "cnj_014",
+    "prerequisiteId": "cnj_010",
+    "strength": "soft",
+    "reason": "带传动是常用传动形式，先建立机构与运动传递的概念。"
+  },
+  {
+    "topicId": "cnj_015",
+    "prerequisiteId": "cnj_014",
+    "strength": "soft",
+    "reason": "链传动与带传动常作对比，先掌握带传动的特点。"
+  },
+  {
+    "topicId": "cnj_016",
+    "prerequisiteId": "cnj_014",
+    "strength": "hard",
+    "reason": "齿轮传动是带、链之后的主力传动，先懂传动比的含义。"
+  },
+  {
+    "topicId": "cnj_017",
+    "prerequisiteId": "cnj_016",
+    "strength": "hard",
+    "reason": "各类齿轮的差别建立在基本参数与啮合条件之上。"
+  },
+  {
+    "topicId": "cnj_018",
+    "prerequisiteId": "cnj_017",
+    "strength": "soft",
+    "reason": "蜗杆是齿轮传动的特殊形式，先掌握齿轮的分类与轴间关系。"
+  },
+  {
+    "topicId": "cnj_019",
+    "prerequisiteId": "cnj_016",
+    "strength": "hard",
+    "reason": "轮系传动比计算要逐级用齿轮传动比连乘。"
+  },
+  {
+    "topicId": "cnj_020",
+    "prerequisiteId": "cnj_016",
+    "strength": "soft",
+    "reason": "轴承支承的是齿轮轴等传动件，先懂传动系统里的轴与齿轮关系。"
+  },
+  {
+    "topicId": "cnj_021",
+    "prerequisiteId": "cnj_013",
+    "strength": "soft",
+    "reason": "轴上零件靠键与销连接，先知道键连接的作用。"
+  },
+  {
+    "topicId": "cnj_021",
+    "prerequisiteId": "cnj_020",
+    "strength": "hard",
+    "reason": "轴必须由轴承支承，先认得轴承类型与承载特点。"
+  },
+  {
+    "topicId": "cnj_022",
+    "prerequisiteId": "cnj_021",
+    "strength": "soft",
+    "reason": "联轴器、离合器都装在轴上，先懂轴的受力与连接。"
+  },
+  {
+    "topicId": "cnj_023",
+    "prerequisiteId": "cnj_010",
+    "strength": "soft",
+    "reason": "弹簧常与机构配合起复位、缓冲作用，先懂机构动作。"
+  },
+  {
+    "topicId": "cnj_024",
+    "prerequisiteId": "cnj_011",
+    "strength": "soft",
+    "reason": "液压缸推动的常是凸轮、连杆等执行机构，先懂机构怎么动。"
+  },
+  {
+    "topicId": "cnj_025",
+    "prerequisiteId": "cnj_024",
+    "strength": "hard",
+    "reason": "泵与缸是液压系统的动力与执行元件，先掌握系统的组成原理。"
+  },
+  {
+    "topicId": "cnj_027",
+    "prerequisiteId": "cnj_026",
+    "strength": "hard",
+    "reason": "公差等级要先懂公差是什么，才能理解标准公差表怎么用。"
+  },
+  {
+    "topicId": "cnj_028",
+    "prerequisiteId": "cnj_026",
+    "strength": "hard",
+    "reason": "判断间隙或过盈要用极限尺寸与偏差计算。"
+  },
+  {
+    "topicId": "cnj_028",
+    "prerequisiteId": "cnj_027",
+    "strength": "hard",
+    "reason": "配合类型靠孔轴公差带的相对位置判断，先掌握公差与等级。"
+  },
+  {
+    "topicId": "cnj_029",
+    "prerequisiteId": "cnj_028",
+    "strength": "soft",
+    "reason": "高精度配合面要求更小的 Ra，先理解配合精度。"
+  },
+  {
+    "topicId": "cnj_030",
+    "prerequisiteId": "cnj_026",
+    "strength": "soft",
+    "reason": "形位公差与尺寸公差同属精度要求，先分清两者表达什么。"
+  },
+  {
+    "topicId": "cnm_002",
+    "prerequisiteId": "cnm_001",
+    "strength": "hard",
+    "reason": "写集合的两种表示方法，要先会判断对象是不是集合的元素。"
+  },
+  {
+    "topicId": "cnm_003",
+    "prerequisiteId": "cnm_001",
+    "strength": "hard",
+    "reason": "判断包含关系要先能把两个集合的元素列清楚。"
+  },
+  {
+    "topicId": "cnm_004",
+    "prerequisiteId": "cnm_002",
+    "strength": "hard",
+    "reason": "做交集并集运算，要先会读集合的列举法和描述法。"
+  },
+  {
+    "topicId": "cnm_005",
+    "prerequisiteId": "cnm_003",
+    "strength": "soft",
+    "reason": "把解集写成区间，本质是描述法集合的一种写法。"
+  },
+  {
+    "topicId": "cnm_006",
+    "prerequisiteId": "cnm_004",
+    "strength": "soft",
+    "reason": "一元二次不等式的解集要用集合或区间表示，先要会集合运算。"
+  },
+  {
+    "topicId": "cnm_007",
+    "prerequisiteId": "cnm_005",
+    "strength": "hard",
+    "reason": "含绝对值的不等式解完要用区间写出解集。"
+  },
+  {
+    "topicId": "cnm_008",
+    "prerequisiteId": "cnm_004",
+    "strength": "soft",
+    "reason": "函数的定义域和值域常用集合或区间描述。"
+  },
+  {
+    "topicId": "cnm_009",
+    "prerequisiteId": "cnm_008",
+    "strength": "hard",
+    "reason": "求定义域要在函数概念清楚之后，知道自变量与函数值的对应。"
+  },
+  {
+    "topicId": "cnm_010",
+    "prerequisiteId": "cnm_009",
+    "strength": "soft",
+    "reason": "讨论单调性要在定义域上讨论，先会求定义域。"
+  },
+  {
+    "topicId": "cnm_011",
+    "prerequisiteId": "cnm_009",
+    "strength": "soft",
+    "reason": "判断奇偶性先要确认定义域关于原点对称。"
+  },
+  {
+    "topicId": "cnm_012",
+    "prerequisiteId": "cnm_001",
+    "strength": "soft",
+    "reason": "指数幂运算的结果常用集合表示取值范围，属于基础运算铺垫。"
+  },
+  {
+    "topicId": "cnm_013",
+    "prerequisiteId": "cnm_012",
+    "strength": "hard",
+    "reason": "对数由指数定义，先要会指数幂运算。"
+  },
+  {
+    "topicId": "cnm_014",
+    "prerequisiteId": "cnm_001",
+    "strength": "soft",
+    "reason": "数列是定义在正整数集上的函数，先有集合与对应的概念。"
+  },
+  {
+    "topicId": "cnm_015",
+    "prerequisiteId": "cnm_005",
+    "strength": "soft",
+    "reason": "判断象限角要把角的范围写成不等式，先会看区间与不等式解集。"
+  },
+  {
+    "topicId": "cnm_016",
+    "prerequisiteId": "cnm_015",
+    "strength": "hard",
+    "reason": "弧度制是在角的概念推广之后才建立的另一种度量方式。"
+  },
+  {
+    "topicId": "cnm_017",
+    "prerequisiteId": "cnm_016",
+    "strength": "hard",
+    "reason": "三角函数的坐标定义建立在弧度制上，求值时要按弧度理解角。"
+  },
+  {
+    "topicId": "cnm_018",
+    "prerequisiteId": "cnm_017",
+    "strength": "hard",
+    "reason": "平方关系与商数关系都从任意角的三角函数定义直接推出。"
+  },
+  {
+    "topicId": "cnm_019",
+    "prerequisiteId": "cnm_017",
+    "strength": "hard",
+    "reason": "诱导公式的依据是终边相同的角三角函数值相同，仍回到坐标定义。"
+  },
+  {
+    "topicId": "cnm_020",
+    "prerequisiteId": "cnm_017",
+    "strength": "soft",
+    "reason": "画正弦、余弦图象前要会算特殊角的三角函数值，才能描点。"
+  },
+  {
+    "topicId": "cnm_021",
+    "prerequisiteId": "cnm_020",
+    "strength": "hard",
+    "reason": "正弦型函数是在正弦曲线基础上做振幅与周期变换，先掌握 y = sin x 的性质。"
+  },
+  {
+    "topicId": "cnm_023",
+    "prerequisiteId": "cnm_022",
+    "strength": "hard",
+    "reason": "斜率是纵坐标差除以横坐标差，先会用距离公式处理两点坐标。"
+  },
+  {
+    "topicId": "cnm_024",
+    "prerequisiteId": "cnm_023",
+    "strength": "hard",
+    "reason": "点斜式里直接用到斜率，不会求斜率就写不出方程。"
+  },
+  {
+    "topicId": "cnm_025",
+    "prerequisiteId": "cnm_024",
+    "strength": "soft",
+    "reason": "一般式要靠斜截式互化，平行垂直判断也建立在斜率上。"
+  },
+  {
+    "topicId": "cnm_026",
+    "prerequisiteId": "cnm_025",
+    "strength": "hard",
+    "reason": "点到直线距离公式要求先把直线写成一般式。"
+  },
+  {
+    "topicId": "cnm_027",
+    "prerequisiteId": "cnm_022",
+    "strength": "hard",
+    "reason": "圆的标准方程本质是距离等于半径，直接用到两点距离公式。"
+  },
+  {
+    "topicId": "cnm_028",
+    "prerequisiteId": "cnm_027",
+    "strength": "hard",
+    "reason": "一般式要靠配方化回标准式，先掌握标准式才能读圆心半径。"
+  },
+  {
+    "topicId": "cnm_029",
+    "prerequisiteId": "cnm_026",
+    "strength": "hard",
+    "reason": "核心是比较圆心到直线的距离 d 与半径 r，先会算点到直线距离。"
+  },
+  {
+    "topicId": "cnm_029",
+    "prerequisiteId": "cnm_028",
+    "strength": "hard",
+    "reason": "判断位置关系要把一般式圆化为标准式读圆心与半径。"
+  },
+  {
+    "topicId": "cnm_030",
+    "prerequisiteId": "cnm_022",
+    "strength": "soft",
+    "reason": "向量坐标运算与坐标平面上的点运算同源，先熟悉坐标差。"
+  },
+  {
+    "topicId": "cnm_031",
+    "prerequisiteId": "cnm_030",
+    "strength": "hard",
+    "reason": "数量积建立在坐标运算与向量模之上。"
+  },
+  {
+    "topicId": "cnm_032",
+    "prerequisiteId": "cnm_022",
+    "strength": "soft",
+    "reason": "体积表面积计算要用到长度与距离的基本运算。"
+  },
+  {
+    "topicId": "cnm_034",
+    "prerequisiteId": "cnm_033",
+    "strength": "hard",
+    "reason": "互斥与对立事件的概率建立在古典概型的计算结果上，先会求单个事件的概率。"
+  },
+  {
+    "topicId": "cnm_035",
+    "prerequisiteId": "cnm_033",
+    "strength": "soft",
+    "reason": "同属统计与概率部分：先会用古典概型算简单概率，统计量的计算与之同源（都是数集上的运算）。"
+  },
+  {
+    "topicId": "cnc_p002",
+    "prerequisiteId": "cnc_p001",
+    "strength": "soft",
+    "reason": "字形辨析以读准字音为前提"
+  },
+  {
+    "topicId": "cnc_p003",
+    "prerequisiteId": "cnc_p002",
+    "strength": "soft",
+    "reason": "词语理解需要正确的字形基础"
+  },
+  {
+    "topicId": "cnc_p004",
+    "prerequisiteId": "cnc_p003",
+    "strength": "soft",
+    "reason": "成语使用依赖词义辨析能力"
+  },
+  {
+    "topicId": "cnc_p005",
+    "prerequisiteId": "cnc_p003",
+    "strength": "soft",
+    "reason": "虚词与关联词属于词语层面"
+  },
+  {
+    "topicId": "cnc_p006",
+    "prerequisiteId": "cnc_p005",
+    "strength": "soft",
+    "reason": "病句判断以虚词与关联词用法为基础"
+  },
+  {
+    "topicId": "cnc_p007",
+    "prerequisiteId": "cnc_p006",
+    "strength": "soft",
+    "reason": "标点规范与句子结构判断同属句子层面"
+  },
+  {
+    "topicId": "cnc_p008",
+    "prerequisiteId": "cnc_p006",
+    "strength": "soft",
+    "reason": "句式变换需要先判断句子成分"
+  },
+  {
+    "topicId": "cnc_p009",
+    "prerequisiteId": "cnc_p001",
+    "strength": "soft",
+    "reason": "名著阅读以基本识字和词语积累为前提"
+  },
+  {
+    "topicId": "cnc_p010",
+    "prerequisiteId": "cnc_p006",
+    "strength": "soft",
+    "reason": "语段理解依赖句子层面的阅读能力"
+  },
+  {
+    "topicId": "cnc_p011",
+    "prerequisiteId": "cnc_p010",
+    "strength": "soft",
+    "reason": "信息筛选建立在内容理解之上"
+  },
+  {
+    "topicId": "cnc_p012",
+    "prerequisiteId": "cnc_p010",
+    "strength": "soft",
+    "reason": "论点识别建立在语段理解之上"
+  },
+  {
+    "topicId": "cnc_p013",
+    "prerequisiteId": "cnc_p010",
+    "strength": "soft",
+    "reason": "词句赏析以整体理解为前提"
+  },
+  {
+    "topicId": "cnc_p014",
+    "prerequisiteId": "cnc_p002",
+    "strength": "soft",
+    "reason": "名句默写以正确的字形为基础"
+  },
+  {
+    "topicId": "cnc_p015",
+    "prerequisiteId": "cnc_p014",
+    "strength": "soft",
+    "reason": "意象与情感判断建立在诗句理解之上"
+  },
+  {
+    "topicId": "cnc_p016",
+    "prerequisiteId": "cnc_p015",
+    "strength": "soft",
+    "reason": "文言实词与古诗文语感同源"
+  },
+  {
+    "topicId": "cnc_p017",
+    "prerequisiteId": "cnc_p016",
+    "strength": "hard",
+    "reason": "虚词与句式需要先掌握实词"
+  },
+  {
+    "topicId": "cnc_p018",
+    "prerequisiteId": "cnc_p017",
+    "strength": "hard",
+    "reason": "句子翻译依赖虚词与句式判断"
+  },
+  {
+    "topicId": "cnc_p019",
+    "prerequisiteId": "cnc_p010",
+    "strength": "soft",
+    "reason": "记叙文写作以记叙文阅读为借鉴"
+  },
+  {
+    "topicId": "cnc_p020",
+    "prerequisiteId": "cnc_p012",
+    "strength": "soft",
+    "reason": "议论文写作以论点论据阅读为基础"
+  },
+  {
+    "topicId": "cnc_p021",
+    "prerequisiteId": "cnc_p011",
+    "strength": "soft",
+    "reason": "说明文写作以信息筛选阅读为基础"
+  },
+  {
+    "topicId": "cnc_p022",
+    "prerequisiteId": "cnc_p007",
+    "strength": "soft",
+    "reason": "应用文格式依赖标点与句子规范"
+  },
+  {
+    "topicId": "cnc_p023",
+    "prerequisiteId": "cnc_p013",
+    "strength": "soft",
+    "reason": "修辞运用以词句赏析为前提"
+  },
+  {
+    "topicId": "cnc_p024",
+    "prerequisiteId": "cnc_p006",
+    "strength": "soft",
+    "reason": "语言简明连贯以病句辨析为基础"
+  },
+  {
+    "topicId": "cnc_p025",
+    "prerequisiteId": "cnc_p019",
+    "strength": "soft",
+    "reason": "拟题与开头结尾依附记叙文结构"
+  },
+  {
+    "topicId": "cne_p002",
+    "prerequisiteId": "cne_p001",
+    "strength": "soft",
+    "reason": "代词使用依赖名词与冠词的数概念"
+  },
+  {
+    "topicId": "cne_p003",
+    "prerequisiteId": "cne_p001",
+    "strength": "soft",
+    "reason": "形容词修饰名词，需先掌握名词"
+  },
+  {
+    "topicId": "cne_p004",
+    "prerequisiteId": "cne_p003",
+    "strength": "soft",
+    "reason": "介词短语常与形容词搭配使用"
+  },
+  {
+    "topicId": "cne_p005",
+    "prerequisiteId": "cne_p001",
+    "strength": "soft",
+    "reason": "时态变化涉及主谓一致"
+  },
+  {
+    "topicId": "cne_p006",
+    "prerequisiteId": "cne_p005",
+    "strength": "hard",
+    "reason": "进行时以基本时态形式为基础"
+  },
+  {
+    "topicId": "cne_p007",
+    "prerequisiteId": "cne_p006",
+    "strength": "hard",
+    "reason": "现在完成时需先掌握动词形式变化"
+  },
+  {
+    "topicId": "cne_p008",
+    "prerequisiteId": "cne_p005",
+    "strength": "soft",
+    "reason": "被动语态依附于时态结构"
+  },
+  {
+    "topicId": "cne_p009",
+    "prerequisiteId": "cne_p005",
+    "strength": "soft",
+    "reason": "情态动词后接动词原形，属动词用法"
+  },
+  {
+    "topicId": "cne_p010",
+    "prerequisiteId": "cne_p004",
+    "strength": "soft",
+    "reason": "篇章理解依赖介词短语与句意识别"
+  },
+  {
+    "topicId": "cne_p011",
+    "prerequisiteId": "cne_p010",
+    "strength": "soft",
+    "reason": "细节定位建立在篇章理解之上"
+  },
+  {
+    "topicId": "cne_p012",
+    "prerequisiteId": "cne_p011",
+    "strength": "soft",
+    "reason": "词义猜测依赖上下文细节"
+  },
+  {
+    "topicId": "cne_p013",
+    "prerequisiteId": "cne_p010",
+    "strength": "soft",
+    "reason": "推理判断以主旨理解为前提"
+  },
+  {
+    "topicId": "cne_p014",
+    "prerequisiteId": "cne_p013",
+    "strength": "soft",
+    "reason": "完形选词依赖上下文推断"
+  },
+  {
+    "topicId": "cne_p015",
+    "prerequisiteId": "cne_p011",
+    "strength": "soft",
+    "reason": "表格填写依赖细节定位"
+  },
+  {
+    "topicId": "cne_p016",
+    "prerequisiteId": "cne_p011",
+    "strength": "soft",
+    "reason": "应用文信息提取属细节定位的应用"
+  },
+  {
+    "topicId": "cne_p017",
+    "prerequisiteId": "cne_p012",
+    "strength": "soft",
+    "reason": "长难句理解依赖词义与句法识别"
+  },
+  {
+    "topicId": "cne_p018",
+    "prerequisiteId": "cne_p017",
+    "strength": "soft",
+    "reason": "句子写作以句法理解为基础"
+  },
+  {
+    "topicId": "cne_p019",
+    "prerequisiteId": "cne_p018",
+    "strength": "soft",
+    "reason": "并列句建立在正确简单句之上"
+  },
+  {
+    "topicId": "cne_p020",
+    "prerequisiteId": "cne_p018",
+    "strength": "hard",
+    "reason": "从句写作需先掌握句子基本结构"
+  },
+  {
+    "topicId": "cne_p021",
+    "prerequisiteId": "cne_p004",
+    "strength": "soft",
+    "reason": "书信写作依赖介词与固定表达"
+  },
+  {
+    "topicId": "cne_p022",
+    "prerequisiteId": "cne_p021",
+    "strength": "soft",
+    "reason": "通知与留言同属应用文写作"
+  },
+  {
+    "topicId": "cne_p023",
+    "prerequisiteId": "cne_p022",
+    "strength": "soft",
+    "reason": "篇章写作建立在应用文写作之上"
+  },
+  {
+    "topicId": "cne_p024",
+    "prerequisiteId": "cne_p023",
+    "strength": "soft",
+    "reason": "段落组织依赖篇章写作经验"
+  },
+  {
+    "topicId": "cne_p025",
+    "prerequisiteId": "cne_p024",
+    "strength": "soft",
+    "reason": "写作修改需先具备段落组织能力"
+  },
+  {
+    "topicId": "cnj_032",
+    "prerequisiteId": "cnj_031",
+    "strength": "soft",
+    "reason": "量具使用前先懂安全规程与现场要求。"
+  },
+  {
+    "topicId": "cnj_033",
+    "prerequisiteId": "cnj_031",
+    "strength": "soft",
+    "reason": "识读工艺文件同样建立在安全与文明生产的基础上。"
+  },
+  {
+    "topicId": "cnj_034",
+    "prerequisiteId": "cnj_033",
+    "strength": "hard",
+    "reason": "划线要按图纸与工艺卡确定基准和余量，先会读图。"
+  },
+  {
+    "topicId": "cnj_035",
+    "prerequisiteId": "cnj_034",
+    "strength": "soft",
+    "reason": "锯削通常沿划好的线进行，划线是锯削的前提。"
+  },
+  {
+    "topicId": "cnj_036",
+    "prerequisiteId": "cnj_035",
+    "strength": "hard",
+    "reason": "锉削多接着锯削后的余量修整，先掌握锯削。"
+  },
+  {
+    "topicId": "cnj_037",
+    "prerequisiteId": "cnj_036",
+    "strength": "soft",
+    "reason": "钻孔前要先锉平并划好孔位，锉削是基础。"
+  },
+  {
+    "topicId": "cnj_038",
+    "prerequisiteId": "cnj_037",
+    "strength": "hard",
+    "reason": "攻丝底孔由钻孔得到，先掌握钻孔与孔径控制。"
+  },
+  {
+    "topicId": "cnj_039",
+    "prerequisiteId": "cnj_031",
+    "strength": "soft",
+    "reason": "车床操作同样以安全规程为前提。"
+  },
+  {
+    "topicId": "cnj_040",
+    "prerequisiteId": "cnj_039",
+    "strength": "hard",
+    "reason": "装刀与对刀要在熟悉车床部件和操作顺序之后进行。"
+  },
+  {
+    "topicId": "cnj_041",
+    "prerequisiteId": "cnj_040",
+    "strength": "soft",
+    "reason": "切削用量要结合已对好的刀具角度来选择。"
+  },
+  {
+    "topicId": "cnj_042",
+    "prerequisiteId": "cnj_041",
+    "strength": "hard",
+    "reason": "外圆与端面车削要按选定的切削用量实际走刀。"
+  },
+  {
+    "topicId": "cnz_p002",
+    "prerequisiteId": "cnz_p001",
+    "strength": "soft",
+    "reason": "讲清历史方位之后才能讲清这一方位下的奋斗目标。"
+  },
+  {
+    "topicId": "cnz_p003",
+    "prerequisiteId": "cnz_p002",
+    "strength": "hard",
+    "reason": "理解奋斗目标要靠党的领导这一根本保证。"
+  },
+  {
+    "topicId": "cnz_p004",
+    "prerequisiteId": "cnz_p003",
+    "strength": "soft",
+    "reason": "价值观是党的主张与社会共识的价值表达。"
+  },
+  {
+    "topicId": "cnz_p005",
+    "prerequisiteId": "cnz_p004",
+    "strength": "soft",
+    "reason": "发展理念是价值目标在发展问题上的具体化。"
+  },
+  {
+    "topicId": "cnz_p006",
+    "prerequisiteId": "cnz_p005",
+    "strength": "hard",
+    "reason": "共同富裕要在新发展理念指引下推进。"
+  },
+  {
+    "topicId": "cnz_p007",
+    "prerequisiteId": "cnz_p006",
+    "strength": "soft",
+    "reason": "发展与安全相互支撑，安全是共同富裕的前提。"
+  },
+  {
+    "topicId": "cnz_p009",
+    "prerequisiteId": "cnz_p008",
+    "strength": "soft",
+    "reason": "经济制度建立在国家性质与根本政治制度之上。"
+  },
+  {
+    "topicId": "cnz_p010",
+    "prerequisiteId": "cnz_p009",
+    "strength": "hard",
+    "reason": "民主法治为经济运行提供规则与秩序。"
+  },
+  {
+    "topicId": "cnz_p011",
+    "prerequisiteId": "cnz_p010",
+    "strength": "soft",
+    "reason": "生态文明建设要靠法治与制度保障。"
+  },
+  {
+    "topicId": "cnz_p012",
+    "prerequisiteId": "cnz_p011",
+    "strength": "soft",
+    "reason": "乡村振兴要在绿色可持续的前提下推进。"
+  },
+  {
+    "topicId": "cnz_p013",
+    "prerequisiteId": "cnz_p012",
+    "strength": "hard",
+    "reason": "读懂重要会议才能准确理解政策部署。"
+  },
+  {
+    "topicId": "cnz_p014",
+    "prerequisiteId": "cnz_p013",
+    "strength": "soft",
+    "reason": "国内政策与国际形势相互关联。"
+  },
+  {
+    "topicId": "cnz_p008",
+    "prerequisiteId": "cnz_p004",
+    "strength": "soft",
+    "reason": "国家制度是价值目标在制度层面的落实。"
+  },
+  {
+    "topicId": "cnz_p016",
+    "prerequisiteId": "cnz_p015",
+    "strength": "soft",
+    "reason": "先分清道德与法律的界限，再学具体公德要求。"
+  },
+  {
+    "topicId": "cnz_p017",
+    "prerequisiteId": "cnz_p016",
+    "strength": "hard",
+    "reason": "职业道德是社会公德在职业领域的具体化。"
+  },
+  {
+    "topicId": "cnz_p018",
+    "prerequisiteId": "cnz_p017",
+    "strength": "soft",
+    "reason": "爱岗敬业与诚实守信是五项规范中最基础的两项。"
+  },
+  {
+    "topicId": "cnz_p019",
+    "prerequisiteId": "cnz_p018",
+    "strength": "hard",
+    "reason": "服务群众、奉献社会建立在敬业与诚信之上。"
+  },
+  {
+    "topicId": "cnz_p020",
+    "prerequisiteId": "cnz_p017",
+    "strength": "soft",
+    "reason": "职业规范清楚之后才能做职业选择与规划。"
+  },
+  {
+    "topicId": "cnz_p021",
+    "prerequisiteId": "cnz_p020",
+    "strength": "soft",
+    "reason": "确定职业方向后靠劳动精神与工匠精神实现成长。"
+  },
+  {
+    "topicId": "cnz_p023",
+    "prerequisiteId": "cnz_p022",
+    "strength": "soft",
+    "reason": "先懂宪法的根本法地位，再学公民权利与义务。"
+  },
+  {
+    "topicId": "cnz_p024",
+    "prerequisiteId": "cnz_p023",
+    "strength": "hard",
+    "reason": "界定违法与犯罪要以宪法和法律的权利义务规定为基础。"
+  },
+  {
+    "topicId": "cnz_p025",
+    "prerequisiteId": "cnz_p024",
+    "strength": "soft",
+    "reason": "先分清一般违法与犯罪，再看常见治安违法。"
+  },
+  {
+    "topicId": "cnz_p026",
+    "prerequisiteId": "cnz_p015",
+    "strength": "hard",
+    "reason": "劳动法律规范同样建立在道德与法律关系的认识上。"
+  },
+  {
+    "topicId": "cnz_p027",
+    "prerequisiteId": "cnz_p026",
+    "strength": "soft",
+    "reason": "未成年人保护与劳动保护同属具体领域的法律保护。"
+  },
+  {
+    "topicId": "cnz_p028",
+    "prerequisiteId": "cnz_p025",
+    "strength": "hard",
+    "reason": "先知道违法后果，才会用合法途径维权。"
+  },
+  {
+    "topicId": "cnz_p015",
+    "prerequisiteId": "cnz_p014",
+    "strength": "soft",
+    "reason": "从国际国内大局转入职业与社会规范。"
+  },
+  {
+    "topicId": "cnz_p022",
+    "prerequisiteId": "cnz_p018",
+    "strength": "soft",
+    "reason": "法治观念建立在诚信守法的职业素养之上。"
+  }
+]

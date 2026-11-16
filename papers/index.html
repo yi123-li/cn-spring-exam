@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>历年真题与官方示例题 · 天津春考</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cpath%20fill%3D%22%23dff3ef%22%20stroke%3D%22%230f6e62%22%20stroke-width%3D%221.7%22%20stroke-linejoin%3D%22round%22%20d%3D%22M6.6%204.8H17L27.4%2015.2V25Q27.4%2027.4%2025.2%2027.4H6.6Q4.4%2027.4%204.4%2025.2V7Q4.4%204.8%206.6%204.8Z%22%2F%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M17.7%206.3%2026.1%2014.7H17.7Z%22%2F%3E%3C%2Fsvg%3E">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="manifest" href="../manifest.webmanifest">
+<meta name="theme-color" content="#0f6e62">
+<style>
+  .papers-wrap { max-width: 1040px; margin: 0 auto; padding: 8px 20px 48px; }
+  .papers-lede { color: var(--muted, #5b6b68); font-size: 15px; line-height: 1.8; margin: 10px 0 18px; }
+  .paper-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 18px; }
+  .paper-tab { border: 1px solid #cfdad7; background: #fff; color: inherit; border-radius: 999px; padding: 8px 16px; font-size: 15px; cursor: pointer; }
+  .paper-tab[aria-selected="true"] { background: #0f6e62; border-color: #0f6e62; color: #fff; }
+  .paper-sheet { border: 1px solid #dce6e3; border-radius: 14px; background: #fff; padding: 18px 20px; margin-bottom: 20px; }
+  .paper-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .paper-head h2 { margin: 0; font-size: 19px; }
+  .paper-badge { font-size: 12px; padding: 3px 9px; border-radius: 999px; background: #eaf5f2; color: #0f6e62; border: 1px solid #cfe6e0; }
+  .paper-badge.sample { background: #fff6e8; color: #8a5a12; border-color: #f0dcc0; }
+  .paper-meta { margin: 10px 0 0; font-size: 13px; color: #5b6b68; line-height: 1.7; }
+  .paper-note { margin: 10px 0 4px; font-size: 13px; color: #7a4a2c; background: #fdf6f0; border-left: 3px solid #e5c1a4; padding: 8px 10px; border-radius: 6px; line-height: 1.7; }
+  .q-card { border-top: 1px solid #eef2f1; padding: 16px 0 10px; }
+  .q-top { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 12px; color: #6b7b78; }
+  .q-year { background: #0f6e62; color: #fff; border-radius: 4px; padding: 1px 7px; }
+  .q-year.sample { background: #b07a2a; }
+  .q-stem { margin: 8px 0 6px; font-size: 15px; line-height: 1.8; white-space: pre-wrap; }
+  .q-passage { margin: 8px 0 10px; padding: 12px 14px; background: #f7faf9; border: 1px solid #e6eeec; border-radius: 8px; font-size: 14px; line-height: 1.8; white-space: pre-wrap; }
+  .q-choices { margin: 6px 0 8px; padding-left: 2px; font-size: 14px; line-height: 1.9; color: #2f3c3a; }
+  .q-choices span { display: block; }
+  .q-actions { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+  .q-toggle { border: 1px solid #cfdad7; background: #fff; border-radius: 8px; padding: 5px 12px; font-size: 13px; cursor: pointer; color: inherit; }
+  .q-answer { margin-top: 8px; font-size: 14px; line-height: 1.8; display: none; }
+  .q-answer.show { display: block; }
+  .q-answer strong { color: #0f6e62; }
+  .q-topic { font-size: 12px; color: #6b7b78; }
+  .empty-note { border: 1px dashed #cfdad7; border-radius: 12px; padding: 18px; color: #5b6b68; font-size: 14px; line-height: 1.8; }
+</style>
+</head>
+<body class="page-explore">
+<header class="site-header">
+  <a class="brand" href="../">
+    <svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><path fill="var(--logo-sheet)" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" d="M6.6 4.8H17L27.4 15.2V25Q27.4 27.4 25.2 27.4H6.6Q4.4 27.4 4.4 25.2V7Q4.4 4.8 6.6 4.8Z"/><path fill="var(--logo-fold)" d="M17.7 6.3 26.1 14.7H17.7Z"/><path fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" d="M17.7 6.3V14.7H26.1"/><path fill="none" stroke="currentColor" stroke-width="2.15" stroke-linecap="round" stroke-linejoin="round" d="M8.3 24.2H12.4Q14.2 24.2 14.2 22.4V20.2Q14.2 18.6 16 18.6H18.8"/><path fill="currentColor" d="M18.5 16.85 23 18.6 18.5 20.35Z"/></svg>
+    <span class="brand-copy">
+      <span class="brand-name">天津春考·真题</span>
+      <span class="brand-kicker">2027 届 · 文化素质</span>
+    </span>
+  </a>
+  <nav class="site-nav" aria-label="主导航">
+    <div class="page-links">
+      <a class="nav-link" href="../">首页</a>
+      <a class="nav-link" href="../explore/">知识图谱</a>
+      <a class="nav-link" href="../diagnose/">诊断</a>
+      <a class="nav-link active" href="./" aria-current="page">真题</a>
+      <a class="nav-link" href="../children/">档案</a>
+    </div>
+  </nav>
+</header>
+<main class="papers-wrap">
+  <p class="papers-lede" id="papers-lede">正在读取真题库…</p>
+  <div class="paper-tabs" id="paper-tabs" role="tablist" aria-label="科目"></div>
+  <div id="paper-list"></div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

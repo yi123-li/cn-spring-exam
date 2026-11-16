@@ -1,0 +1,3193 @@
+[
+  {
+    "id": "cnm_001",
+    "name": "集合与元素",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "代数 第1章 集合",
+    "type": "conceptual",
+    "description": "知道集合是把确定的对象看成一个整体，能判断一个对象是不是某个集合的元素。",
+    "mastery_criteria": [
+      "能说出集合与元素的从属关系",
+      "能用 ∈ 与 ∉ 判断元素是否属于集合"
+    ],
+    "diagnostic_question": {
+      "question": "下列各组对象中，能构成一个集合的是（　）。",
+      "answer": "所有小于 10 的正整数"
+    },
+    "external": false,
+    "standards": [],
+    "root_reason": "春考数学从集合开始，它是后面不等式解集、区间表示的共同语言，前面没有更早的代数学科内容。"
+  },
+  {
+    "id": "cnm_002",
+    "name": "集合的表示方法",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "代数 第1章 集合",
+    "type": "procedural",
+    "description": "会用列举法和描述法表示集合，并能在两种写法之间转换。",
+    "mastery_criteria": [
+      "能用列举法写出有限集合",
+      "能用描述法写出有共同特征的集合"
+    ],
+    "diagnostic_question": {
+      "question": "用列举法表示集合 {x | x 是小于 5 的正整数}，结果是（　）。",
+      "answer": "{1, 2, 3, 4}"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_003",
+    "name": "集合间的包含关系",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "代数 第1章 集合",
+    "type": "conceptual",
+    "description": "知道子集、真子集、集合相等的含义，能判断两个集合的包含关系。",
+    "mastery_criteria": [
+      "能判断 A 是不是 B 的子集",
+      "能数出一个有限集合的子集个数"
+    ],
+    "diagnostic_question": {
+      "question": "A = {1, 2}，B = {1, 2, 3}，则 A 与 B 的关系是（　）。",
+      "answer": "A 是 B 的真子集"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_004",
+    "name": "集合的交、并、补运算",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "代数 第1章 集合",
+    "type": "procedural",
+    "description": "会用交集、并集、补集三种运算求结果集合。",
+    "mastery_criteria": [
+      "能求两个集合的交集与并集",
+      "能在给定全集中求补集"
+    ],
+    "diagnostic_question": {
+      "question": "集合 A = {1, 2, 3}，B = {2, 3, 4}，则 A ∩ B 是（　）。",
+      "answer": "{2, 3}"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_005",
+    "name": "区间与不等式解集的表示",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "代数 第2章 不等式",
+    "type": "procedural",
+    "description": "会把不等式或不等式组的解集写成区间，也能把区间还原成不等式。",
+    "mastery_criteria": [
+      "能正确使用开区间与闭区间",
+      "能在数轴上表示区间端点是否包含"
+    ],
+    "diagnostic_question": {
+      "question": "不等式 x ≥ 2 用区间表示是（　）。",
+      "answer": "[2, +∞)"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_006",
+    "name": "一元二次不等式的解法",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "代数 第2章 不等式",
+    "type": "procedural",
+    "description": "会借助二次函数的图像解一元二次不等式，并按判别式讨论解集情况。",
+    "mastery_criteria": [
+      "能求出两根并按大于取两边、小于取中间写解集",
+      "能处理判别式不大于零的情况"
+    ],
+    "diagnostic_question": {
+      "question": "不等式 x² - 3x + 2 < 0 的解集是（　）。",
+      "answer": "1 < x < 2"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_007",
+    "name": "含绝对值的不等式",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "代数 第2章 不等式",
+    "type": "procedural",
+    "description": "会解 |x| < a 与 |x| > a 型的不等式，并会处理 |x - b| 形式。",
+    "mastery_criteria": [
+      "能解 |x| < a 与 |x| > a 型不等式",
+      "能把 |x - b| 化为关于 x 的区间"
+    ],
+    "diagnostic_question": {
+      "question": "不等式 |x| < 3 的解集是（　）。",
+      "answer": "-3 < x < 3"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_008",
+    "name": "函数的概念与函数值",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "代数 第3章 函数",
+    "type": "conceptual",
+    "description": "理解函数是两个变量之间的对应关系，会求 f(a) 这样的函数值。",
+    "mastery_criteria": [
+      "能判断一个对应关系是不是函数",
+      "能代入具体数值求函数值"
+    ],
+    "diagnostic_question": {
+      "question": "已知 f(x) = 2x + 1，则 f(3) 等于（　）。",
+      "answer": "7"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_009",
+    "name": "函数的定义域",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "代数 第3章 函数",
+    "type": "procedural",
+    "description": "会根据分母、偶次根号、零次幂等限制求函数的定义域。",
+    "mastery_criteria": [
+      "能排除使分母为零的自变量",
+      "能保证偶次根号内非负"
+    ],
+    "diagnostic_question": {
+      "question": "函数 f(x) = 1/(x - 2) 的定义域是（　）。",
+      "answer": "x ≠ 2"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_010",
+    "name": "函数的单调性",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "代数 第3章 函数",
+    "type": "conceptual",
+    "description": "知道增函数与减函数的含义，能用单调性比较函数值大小。",
+    "mastery_criteria": [
+      "能判断一次函数与二次函数在给定区间上的单调性",
+      "能用单调性比较两个函数值"
+    ],
+    "diagnostic_question": {
+      "question": "函数 y = 2x + 1 在实数集上是（　）。",
+      "answer": "增函数"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_011",
+    "name": "函数的奇偶性",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "代数 第3章 函数",
+    "type": "conceptual",
+    "description": "知道奇函数与偶函数的图像特征，会用 f(-x) 与 f(x) 的关系判断奇偶性。",
+    "mastery_criteria": [
+      "能用定义判断奇偶性",
+      "知道定义在 R 上的奇函数满足 f(0) = 0"
+    ],
+    "diagnostic_question": {
+      "question": "函数 f(x) = x³ 是（　）。",
+      "answer": "奇函数"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_012",
+    "name": "指数幂的运算",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "代数 第4章 指数与对数",
+    "type": "procedural",
+    "description": "会做同底数幂的乘除、幂的乘方、分数指数幂和零指数幂的运算。",
+    "mastery_criteria": [
+      "能用法则化简同底数幂",
+      "会把分数指数幂化成根式并求值"
+    ],
+    "diagnostic_question": {
+      "question": "2³ × 2² 等于（　）。",
+      "answer": "32"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_013",
+    "name": "对数与对数运算",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "代数 第4章 指数与对数",
+    "type": "procedural",
+    "description": "理解对数的定义，会用 logₐN 的基本性质和常用对数的运算求值。",
+    "mastery_criteria": [
+      "能把对数还原成指数形式",
+      "能求 logₐ1、logₐa 这类基本值"
+    ],
+    "diagnostic_question": {
+      "question": "log₂8 等于（　）。",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_014",
+    "name": "等差数列",
+    "domain": "数与代数",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "代数 第5章 数列",
+    "type": "procedural",
+    "description": "知道等差数列的通项公式与前 n 项和公式，能求指定项和若干项的和。",
+    "mastery_criteria": [
+      "能用 aₙ = a₁ + (n-1)d 求通项",
+      "能用前 n 项和公式求和"
+    ],
+    "diagnostic_question": {
+      "question": "等差数列 2, 5, 8, 11, … 的公差是（　）。",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_015",
+    "name": "角的概念推广与象限角",
+    "domain": "图形与几何",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "三角 第1章 三角函数",
+    "type": "conceptual",
+    "description": "知道角可以看成射线绕端点旋转形成，旋转方向与圈数不受限制，会把角放到平面直角坐标系里判断它属于哪个象限。",
+    "mastery_criteria": [
+      "能判断 0°–360° 内的角所在象限",
+      "能写出与已知角终边相同的角的集合"
+    ],
+    "diagnostic_question": {
+      "question": "下列各角中，是第二象限角的是（　）。",
+      "answer": "120°"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_016",
+    "name": "弧度制与角度弧度换算",
+    "domain": "图形与几何",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "三角 第1章 三角函数",
+    "type": "procedural",
+    "description": "知道弧度是另一种度量角的方式，会做角度与弧度的换算，能用弧长公式和扇形面积公式计算。",
+    "mastery_criteria": [
+      "能把特殊角在角度与弧度之间换算",
+      "能用 l = rθ 与 S = ½lr 计算弧长和扇形面积"
+    ],
+    "diagnostic_question": {
+      "question": "60° 化为弧度是（　）。",
+      "answer": "π/3"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_017",
+    "name": "任意角的三角函数与符号",
+    "domain": "图形与几何",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "三角 第1章 三角函数",
+    "type": "conceptual",
+    "description": "知道任意角三角函数的坐标定义：角 α 终边上一点 P(x, y)，r = √(x²+y²)，则 sin α = y/r、cos α = x/r、tan α = y/x，并能判断各象限的符号。",
+    "mastery_criteria": [
+      "能用终边上一点的坐标求三角函数值",
+      "能判断三角函数在各象限的正负"
+    ],
+    "diagnostic_question": {
+      "question": "角 α 的终边过点 P(3, 4)，则 sin α =（　）。",
+      "answer": "4/5"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_018",
+    "name": "同角三角函数的基本关系",
+    "domain": "图形与几何",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "三角 第1章 三角函数",
+    "type": "procedural",
+    "description": "掌握 sin²α + cos²α = 1 与 tan α = sin α/cos α，能由一个三角函数值结合象限求另外两个。",
+    "mastery_criteria": [
+      "会用平方关系由 sin 求 cos（注意象限定符号）",
+      "会用商数关系把 tan 与 sin、cos 互相转化"
+    ],
+    "diagnostic_question": {
+      "question": "已知 sin α = 3/5 且 α 是第二象限角，则 cos α =（　）。",
+      "answer": "-4/5"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_019",
+    "name": "诱导公式",
+    "domain": "图形与几何",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "三角 第1章 三角函数",
+    "type": "procedural",
+    "description": "会用诱导公式把任意角的三角函数化为锐角三角函数：sin(180°-α) = sin α、cos(180°-α) = -cos α、sin(-α) = -sin α、cos(π+α) = -cos α 等。",
+    "mastery_criteria": [
+      "能把 90°–360° 的角化为锐角求值",
+      "能处理负角与 π ± α 形式的化简"
+    ],
+    "diagnostic_question": {
+      "question": "sin 150° 的值是（　）。",
+      "answer": "1/2"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_020",
+    "name": "正弦、余弦函数的图象与性质",
+    "domain": "图形与几何",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "三角 第1章 三角函数",
+    "type": "conceptual",
+    "description": "知道 y = sin x 与 y = cos x 的图象形状，能说出它们的定义域、值域、周期、奇偶性与单调区间。",
+    "mastery_criteria": [
+      "能说出两条曲线的最小正周期、最大值与最小值",
+      "能判断奇偶性并写出指定区间上的单调性"
+    ],
+    "diagnostic_question": {
+      "question": "函数 y = sin x 的最小正周期是（　）。",
+      "answer": "2π"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_021",
+    "name": "正弦型函数 y = Asin(ωx + φ)",
+    "domain": "图形与几何",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "三角 第1章 三角函数",
+    "type": "procedural",
+    "description": "知道 A、ω 对图象的影响：A 决定振幅，ω 决定周期 T = 2π/|ω|，并能求最大值、最小值与周期。",
+    "mastery_criteria": [
+      "能由解析式读出振幅与最小正周期",
+      "能求给定正弦型函数的最大值和最小值"
+    ],
+    "diagnostic_question": {
+      "question": "函数 y = 3sin(2x + π/4) 的振幅是（　）。",
+      "answer": "3"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_022",
+    "name": "两点间距离与中点坐标",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "几何 第1章 坐标与直线",
+    "type": "procedural",
+    "description": "会用两点间距离公式求两点距离，会用中点坐标公式求线段中点。",
+    "mastery_criteria": [
+      "能用 d = √((x₂-x₁)² + (y₂-y₁)²) 求两点距离",
+      "能用中点公式求线段中点坐标"
+    ],
+    "diagnostic_question": {
+      "question": "点 A(1, 2) 与 B(4, 6) 两点间的距离是（　）。",
+      "answer": "5"
+    },
+    "external": false,
+    "standards": [],
+    "root_reason": "几何部分从坐标与距离起头：中职数学的解析几何一上来就把图形放到坐标平面上，前面没有更早的几何先修。"
+  },
+  {
+    "id": "cnm_023",
+    "name": "直线的倾斜角与斜率",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "几何 第1章 坐标与直线",
+    "type": "conceptual",
+    "description": "知道倾斜角是直线与 x 轴正方向的夹角（范围 0° ≤ α < 180°），斜率 k = tan α，会用两点求斜率。",
+    "mastery_criteria": [
+      "能由倾斜角求斜率、由斜率求倾斜角",
+      "能用 k = (y₂-y₁)/(x₂-x₁) 求经过两点的直线斜率"
+    ],
+    "diagnostic_question": {
+      "question": "经过点 A(1, 2)、B(3, 6) 的直线斜率是（　）。",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_024",
+    "name": "直线的点斜式与斜截式方程",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "几何 第1章 坐标与直线",
+    "type": "procedural",
+    "description": "会用点斜式 y - y₀ = k(x - x₀) 和斜截式 y = kx + b 写出直线方程，并能从方程读出斜率与截距。",
+    "mastery_criteria": [
+      "能由一点和斜率写出点斜式方程",
+      "能从斜截式读出斜率与 y 轴截距"
+    ],
+    "diagnostic_question": {
+      "question": "经过点 (1, 2) 且斜率为 3 的直线方程是（　）。",
+      "answer": "y - 2 = 3(x - 1)"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_025",
+    "name": "直线方程的一般式与平行垂直",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "几何 第1章 坐标与直线",
+    "type": "procedural",
+    "description": "知道直线的一般式 Ax + By + C = 0，会化成斜截式读斜率，会用斜率判断两条直线平行或垂直。",
+    "mastery_criteria": [
+      "能把一般式化为斜截式并读出斜率",
+      "能由斜率关系判断平行（k₁ = k₂）或垂直（k₁·k₂ = -1）"
+    ],
+    "diagnostic_question": {
+      "question": "直线 2x - y + 3 = 0 的斜率是（　）。",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_026",
+    "name": "点到直线的距离",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "几何 第1章 坐标与直线",
+    "type": "procedural",
+    "description": "会用点到直线距离公式 d = |Ax₀ + By₀ + C| / √(A² + B²)，并会求两条平行线之间的距离。",
+    "mastery_criteria": [
+      "能代入公式求点到直线的距离",
+      "能把平行线距离转化为点到直线的距离"
+    ],
+    "diagnostic_question": {
+      "question": "点 P(1, 2) 到直线 3x + 4y - 5 = 0 的距离是（　）。",
+      "answer": "6/5"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_027",
+    "name": "圆的标准方程",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "几何 第2章 圆",
+    "type": "procedural",
+    "description": "掌握圆的标准方程 (x - a)² + (y - b)² = r²，能从方程读出圆心和半径，也能由圆心半径写出方程。",
+    "mastery_criteria": [
+      "能由标准方程读出圆心坐标与半径",
+      "能由圆心和半径（或过某点）写出标准方程"
+    ],
+    "diagnostic_question": {
+      "question": "圆心为 (1, -2)、半径为 3 的圆的标准方程是（　）。",
+      "answer": "(x - 1)² + (y + 2)² = 9"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_028",
+    "name": "圆的一般方程",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "几何 第2章 圆",
+    "type": "procedural",
+    "description": "知道圆的一般方程 x² + y² + Dx + Ey + F = 0，会用配方法化成标准式求圆心和半径，并会判断它是否表示圆。",
+    "mastery_criteria": [
+      "能把一般式配方成标准式",
+      "能用 r = ½√(D² + E² - 4F) 求半径并判断是否成圆"
+    ],
+    "diagnostic_question": {
+      "question": "圆 x² + y² - 2x + 4y = 0 的圆心是（　）。",
+      "answer": "(1, -2)"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_029",
+    "name": "直线与圆的位置关系",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "几何 第2章 圆",
+    "type": "procedural",
+    "description": "会用圆心到直线的距离 d 与半径 r 比较来判断相交、相切、相离，并会求切线条件。",
+    "mastery_criteria": [
+      "能用 d 与 r 的大小关系判断位置关系",
+      "能由相切条件求出参数"
+    ],
+    "diagnostic_question": {
+      "question": "直线 y = x + 2 与圆 x² + y² = 2 的位置关系是（　）。",
+      "answer": "相切"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_030",
+    "name": "平面向量的坐标运算",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "几何 第3章 平面向量",
+    "type": "procedural",
+    "description": "知道向量可以用坐标表示，会做向量的加减、数乘运算，会求向量模与共线条件。",
+    "mastery_criteria": [
+      "能进行向量坐标的加减与数乘",
+      "会用 |a| = √(x² + y²) 求模、用 x₁y₂ - x₂y₁ = 0 判断共线"
+    ],
+    "diagnostic_question": {
+      "question": "已知 a = (1, 2)，b = (3, -1)，则 a + b =（　）。",
+      "answer": "(4, 1)"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_031",
+    "name": "平面向量的数量积",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "几何 第3章 平面向量",
+    "type": "procedural",
+    "description": "掌握数量积 a·b = x₁x₂ + y₁y₂，会用数量积求夹角余弦、判断垂直。",
+    "mastery_criteria": [
+      "能计算两个向量的数量积",
+      "会用 a·b = 0 判断垂直，用 cos θ = a·b/(|a||b|) 求夹角"
+    ],
+    "diagnostic_question": {
+      "question": "已知 a = (1, 2)，b = (3, -1)，则 a·b =（　）。",
+      "answer": "1"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_032",
+    "name": "简单几何体的表面积与体积",
+    "domain": "图形与几何",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "几何 第4章 简单几何体",
+    "type": "procedural",
+    "description": "记住正方体、长方体、圆柱、圆锥的体积与表面积公式，会代入数据计算。",
+    "mastery_criteria": [
+      "会求正方体、长方体的表面积与体积",
+      "会求圆柱、圆锥的体积与侧面积"
+    ],
+    "diagnostic_question": {
+      "question": "棱长为 3 的正方体，其体积是（　）。",
+      "answer": "27"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_033",
+    "name": "随机事件与古典概率",
+    "domain": "统计与概率",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "概率统计 第1章 概率",
+    "type": "conceptual",
+    "description": "知道必然事件、不可能事件与随机事件，会用古典概型 P(A) = 事件包含的结果数 / 所有可能结果数 求概率。",
+    "mastery_criteria": [
+      "能判断一个事件是必然、不可能还是随机事件",
+      "能用古典概型公式求简单等可能事件的概率"
+    ],
+    "diagnostic_question": {
+      "question": "掷一枚均匀的骰子，出现偶数点的概率是（　）。",
+      "answer": "1/2"
+    },
+    "external": false,
+    "standards": [],
+    "root_reason": "概率部分从随机事件与古典概型起头，这一部分在中职数学里自成一块，前面没有更早的先修。"
+  },
+  {
+    "id": "cnm_034",
+    "name": "互斥事件与对立事件的概率",
+    "domain": "统计与概率",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "概率统计 第1章 概率",
+    "type": "procedural",
+    "description": "知道互斥事件不能同时发生，对立事件必有一个发生；会用 P(A∪B) = P(A) + P(B)（A、B 互斥）和 P(Ā) = 1 - P(A)。",
+    "mastery_criteria": [
+      "能用加法公式求互斥事件至少一个发生的概率",
+      "会用对立事件把「至少」类问题转化为 1 减"
+    ],
+    "diagnostic_question": {
+      "question": "事件 A 的概率为 0.3，则其对立事件的概率是（　）。",
+      "answer": "0.7"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnm_035",
+    "name": "平均数、中位数、众数与方差",
+    "domain": "统计与概率",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "概率统计 第2章 统计",
+    "type": "procedural",
+    "description": "会求一组数据的平均数、中位数、众数与方差，能判断数据的集中趋势与波动大小。",
+    "mastery_criteria": [
+      "能求平均数、中位数与众数",
+      "会用 s² = Σ(xᵢ - x̄)² / n 求方差并比较波动"
+    ],
+    "diagnostic_question": {
+      "question": "数据 2, 4, 6, 8, 10 的平均数是（　）。",
+      "answer": "6"
+    },
+    "external": false,
+    "standards": [],
+    "root_reason": "统计部分从数据特征起头，与概率并列为这一部分的两个板块，只要求会基本运算，不依赖其他知识点。"
+  },
+  {
+    "id": "cnj_001",
+    "name": "图纸幅面、比例与图线",
+    "domain": "机械制图",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "机械制图 第1章 制图基本规定",
+    "type": "conceptual",
+    "description": "知道常用图纸幅面尺寸、比例的含义，认得粗实线、细实线等基本图线的用途。",
+    "mastery_criteria": [
+      "能说出 A3、A4 幅面尺寸并判断比例是放大还是缩小",
+      "能按用途区分粗实线、细实线、虚线与点画线"
+    ],
+    "diagnostic_question": {
+      "question": "A3 图纸的幅面尺寸是（　）。",
+      "answer": "420 × 297"
+    },
+    "external": false,
+    "standards": [],
+    "root_reason": "机械制图从图纸的基本规定起头：幅面、比例、图线是后面所有投影与标注的共同前提，本身没有更早的先修。"
+  },
+  {
+    "id": "cnj_002",
+    "name": "尺寸标注的基本规则",
+    "domain": "机械制图",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "机械制图 第1章 制图基本规定",
+    "type": "procedural",
+    "description": "知道图样上的尺寸数值表示机件真实大小、与绘图比例无关，会正确使用 φ、R 等尺寸符号。",
+    "mastery_criteria": [
+      "知道尺寸数值是真实大小，不随比例改变",
+      "能正确辨识 φ、R、SR 等尺寸符号的含义"
+    ],
+    "diagnostic_question": {
+      "question": "图样上标注的尺寸数值表示的是（　）。",
+      "answer": "机件的真实大小"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_003",
+    "name": "三视图的形成与投影规律",
+    "domain": "机械制图",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "机械制图 第2章 投影基础",
+    "type": "conceptual",
+    "description": "知道主视图、俯视图、左视图的观察方向，掌握「长对正、高平齐、宽相等」的投影规律。",
+    "mastery_criteria": [
+      "能说明三个视图分别从哪个方向观察",
+      "能按长对正、高平齐、宽相等判断视图间对应关系"
+    ],
+    "diagnostic_question": {
+      "question": "三视图中，主视图是从（　）方向观察物体得到的。",
+      "answer": "前"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_004",
+    "name": "点的三面投影",
+    "domain": "机械制图",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "机械制图 第2章 投影基础",
+    "type": "procedural",
+    "description": "知道点在三面投影体系中的三个投影符号（a、a′、a″）与展开规律，会由两面投影求第三投影。",
+    "mastery_criteria": [
+      "能正确使用 a、a′、a″ 表示水平、正面、侧面投影",
+      "知道点的两面投影可确定第三投影"
+    ],
+    "diagnostic_question": {
+      "question": "点的正面投影用（　）表示。",
+      "answer": "a′"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_005",
+    "name": "直线的投影特性",
+    "domain": "机械制图",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "机械制图 第2章 投影基础",
+    "type": "procedural",
+    "description": "知道投影面平行线、投影面垂直线与一般位置直线的投影特点，会判断直线是否反映实长。",
+    "mastery_criteria": [
+      "能区分投影面平行线、垂直线与一般位置直线",
+      "知道一般位置直线的投影不反映实长"
+    ],
+    "diagnostic_question": {
+      "question": "平行于一个投影面、同时倾斜于另两个投影面的直线称为（　）。",
+      "answer": "投影面平行线"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_006",
+    "name": "平面的投影特性",
+    "domain": "机械制图",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "机械制图 第2章 投影基础",
+    "type": "procedural",
+    "description": "知道投影面平行面、投影面垂直面与一般位置平面的投影特点，会判断平面是否反映实形。",
+    "mastery_criteria": [
+      "能区分投影面平行面、垂直面与一般位置平面",
+      "知道平行面反映实形、垂直面积聚成线"
+    ],
+    "diagnostic_question": {
+      "question": "平行于 H 面的平面称为（　）。",
+      "answer": "水平面"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_007",
+    "name": "基本几何体的三视图",
+    "domain": "机械制图",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "机械制图 第3章 体的投影与组合体",
+    "type": "procedural",
+    "description": "认得棱柱、圆柱、圆锥、球等基本几何体的三视图形状，能由视图反推立体形状。",
+    "mastery_criteria": [
+      "能说出圆柱、圆锥、球的三视图各是什么形状",
+      "能由三视图判断基本几何体类型"
+    ],
+    "diagnostic_question": {
+      "question": "轴线竖直放置的圆柱，其主视图是（　）。",
+      "answer": "矩形"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_008",
+    "name": "组合体三视图的识读",
+    "domain": "机械制图",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "机械制图 第3章 体的投影与组合体",
+    "type": "procedural",
+    "description": "会按形体分析法识读组合体三视图，知道相交处画交线、相切处不画分界线，认得定形、定位与总体尺寸。",
+    "mastery_criteria": [
+      "能用形体分析法把组合体拆成基本体",
+      "知道相切处不画分界线、相交处要画交线"
+    ],
+    "diagnostic_question": {
+      "question": "识读组合体三视图时，首先应（　）。",
+      "answer": "分析各视图的投影关系"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_009",
+    "name": "剖视图与断面图的识读",
+    "domain": "机械制图",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "机械制图 第4章 剖视图与断面图",
+    "type": "procedural",
+    "description": "知道剖视图用于表达内部结构、断面图只画断面形状，能区分两者的画法与用途。",
+    "mastery_criteria": [
+      "能说明剖视图与断面图各自表达什么",
+      "知道剖视图还要画剖切面后方的可见轮廓"
+    ],
+    "diagnostic_question": {
+      "question": "剖视图的主要作用是（　）。",
+      "answer": "表达机件内部结构"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_010",
+    "name": "平面四杆机构的类型",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第1章 常用机构与连接",
+    "type": "conceptual",
+    "description": "知道铰链四杆机构按两连架杆能否整周转动分为曲柄摇杆、双曲柄、双摇杆三种，能说出各自运动特点。",
+    "mastery_criteria": [
+      "能按两连架杆的运动形式判断机构类型",
+      "知道曲柄摇杆机构能把整周转动变往复摆动"
+    ],
+    "diagnostic_question": {
+      "question": "两连架杆中一个能整周转动、另一个只能往复摆动的铰链四杆机构称为（　）。",
+      "answer": "曲柄摇杆机构"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_011",
+    "name": "凸轮机构的组成与特点",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第1章 常用机构与连接",
+    "type": "conceptual",
+    "description": "知道凸轮机构由凸轮、从动件和机架组成，能实现任意预期的从动件运动规律，但不宜传递很大动力。",
+    "mastery_criteria": [
+      "能说出凸轮机构的三个基本组成",
+      "知道凸轮机构适合实现复杂运动规律、不适合大功率传动"
+    ],
+    "diagnostic_question": {
+      "question": "凸轮机构中，按预定规律作往复运动的构件称为（　）。",
+      "answer": "从动件"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_012",
+    "name": "螺纹连接与防松",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第1章 常用机构与连接",
+    "type": "procedural",
+    "description": "知道螺纹连接的基本类型，认得弹簧垫圈、双螺母、开口销等常见防松方法。",
+    "mastery_criteria": [
+      "能说出螺栓连接、双头螺柱连接、螺钉连接的适用场合",
+      "能识别常见防松措施"
+    ],
+    "diagnostic_question": {
+      "question": "螺纹连接中最常用的防松方法是（　）。",
+      "answer": "加弹簧垫圈"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_013",
+    "name": "键连接与销连接",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第1章 常用机构与连接",
+    "type": "conceptual",
+    "description": "知道平键、半圆键、楔键的传力方式，知道销连接可用于定位与连接。",
+    "mastery_criteria": [
+      "知道平键靠侧面传递扭矩",
+      "知道销主要用于定位、也可作连接与安全保护"
+    ],
+    "diagnostic_question": {
+      "question": "平键连接传递扭矩主要靠（　）。",
+      "answer": "键的侧面挤压"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_014",
+    "name": "带传动的类型与特点",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第2章 机械传动",
+    "type": "procedural",
+    "description": "知道带传动靠摩擦（或啮合）传力，具有过载保护和吸振优点、传动比不准确的缺点，会算带传动传动比。",
+    "mastery_criteria": [
+      "能说出带传动的主要优缺点",
+      "会用 i = n₁/n₂ = d₂/d₁ 计算带传动传动比"
+    ],
+    "diagnostic_question": {
+      "question": "带传动中，主动轮直径 100 mm、从动轮直径 200 mm，其传动比 i 为（　）。",
+      "answer": "2"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_015",
+    "name": "链传动的特点",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第2章 机械传动",
+    "type": "conceptual",
+    "description": "知道链传动属于啮合传动，平均传动比准确，适合中心距较大、不宜用带的场合。",
+    "mastery_criteria": [
+      "能说出链传动与带传动的主要差别",
+      "知道链传动瞬时速度不均匀、有冲击"
+    ],
+    "diagnostic_question": {
+      "question": "链传动与带传动相比，其传动比（　）。",
+      "answer": "平均传动比准确"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_016",
+    "name": "齿轮传动的基本参数",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第2章 机械传动",
+    "type": "procedural",
+    "description": "知道模数 m = p/π、标准直齿圆柱齿轮分度圆直径 d = mz，会用 i = z₂/z₁ 算传动比。",
+    "mastery_criteria": [
+      "能用 d = mz 求分度圆直径",
+      "会用 i = n₁/n₂ = z₂/z₁ 求齿轮传动比"
+    ],
+    "diagnostic_question": {
+      "question": "标准直齿圆柱齿轮，模数 2 mm、齿数 30，其分度圆直径是（　）。",
+      "answer": "60 mm"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_017",
+    "name": "齿轮传动的类型",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第2章 机械传动",
+    "type": "conceptual",
+    "description": "知道直齿、斜齿、人字齿、圆锥齿轮的传动特点与适用场合。",
+    "mastery_criteria": [
+      "能说出斜齿轮比直齿轮传动平稳的原因",
+      "知道圆锥齿轮用于两相交轴间的传动"
+    ],
+    "diagnostic_question": {
+      "question": "斜齿圆柱齿轮与直齿圆柱齿轮相比，其传动（　）。",
+      "answer": "更平稳、承载能力更高"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_018",
+    "name": "蜗杆传动",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第2章 机械传动",
+    "type": "procedural",
+    "description": "知道蜗杆传动用于两交错轴间传动，传动比大、结构紧凑、有自锁性，但效率较低，会算传动比。",
+    "mastery_criteria": [
+      "知道蜗杆传动的适用轴间关系与大传动比特点",
+      "会用 i = z₂/z₁ 计算蜗杆传动比"
+    ],
+    "diagnostic_question": {
+      "question": "单头蜗杆（z₁ = 1）与齿数 40 的蜗轮啮合，其传动比 i 为（　）。",
+      "answer": "40"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_019",
+    "name": "轮系与传动比计算",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第2章 机械传动",
+    "type": "procedural",
+    "description": "知道定轴轮系传动比等于各从动轮齿数连乘除以各主动轮齿数连乘，会做多级传动比计算。",
+    "mastery_criteria": [
+      "能按齿数连乘计算多级定轴轮系传动比",
+      "知道中间轮只改变转向、不改变传动比大小"
+    ],
+    "diagnostic_question": {
+      "question": "三级定轴轮系，各级传动比分别为 2、3、4，总传动比为（　）。",
+      "answer": "24"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_020",
+    "name": "滚动轴承的类型与代号",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第2章 机械传动",
+    "type": "conceptual",
+    "description": "认得深沟球轴承、圆锥滚子轴承、推力轴承的承载特点，知道代号中数字的含义（如 6205 的内径）。",
+    "mastery_criteria": [
+      "能按载荷方向选择轴承类型",
+      "知道内径代号 ×5 即为内径毫米数"
+    ],
+    "diagnostic_question": {
+      "question": "滚动轴承代号 6205 中，6 表示（　）。",
+      "answer": "深沟球轴承"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_021",
+    "name": "轴的类型与受力",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第3章 轴系零件与液压",
+    "type": "conceptual",
+    "description": "知道心轴只承受弯矩、传动轴只传递扭矩、转轴同时承受弯矩和扭矩。",
+    "mastery_criteria": [
+      "能按受力情况区分心轴、传动轴、转轴",
+      "能举出各自的应用例子"
+    ],
+    "diagnostic_question": {
+      "question": "只承受弯矩而不传递扭矩的轴称为（　）。",
+      "answer": "心轴"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_022",
+    "name": "联轴器与离合器",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第3章 轴系零件与液压",
+    "type": "conceptual",
+    "description": "知道联轴器连接两轴后工作时不能分离，离合器可随时分离与结合。",
+    "mastery_criteria": [
+      "能说出联轴器与离合器的根本区别",
+      "知道弹性联轴器可补偿两轴偏移并缓冲吸振"
+    ],
+    "diagnostic_question": {
+      "question": "联轴器与离合器的主要区别是（　）。",
+      "answer": "离合器可在运转中随时分离，联轴器不能"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_023",
+    "name": "弹簧的功用与类型",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第3章 轴系零件与液压",
+    "type": "conceptual",
+    "description": "知道弹簧可缓冲吸振、储存能量、测量力、复位，常见有圆柱螺旋压缩、拉伸、扭转弹簧。",
+    "mastery_criteria": [
+      "能说出弹簧的四项主要功用",
+      "能按受载形式区分压缩、拉伸、扭转弹簧"
+    ],
+    "diagnostic_question": {
+      "question": "弹簧的主要功用不包括（　）。",
+      "answer": "传递大扭矩"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_024",
+    "name": "液压传动的基本原理与组成",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第3章 轴系零件与液压",
+    "type": "conceptual",
+    "description": "知道液压传动以液体为工作介质、靠密封容积变化传递压力能，系统由动力、执行、控制、辅助元件和工作介质组成。",
+    "mastery_criteria": [
+      "能说出液压系统五个组成部分",
+      "知道液压传动基于帕斯卡原理"
+    ],
+    "diagnostic_question": {
+      "question": "液压系统中，把机械能转换为液压能的元件是（　）。",
+      "answer": "液压泵"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_025",
+    "name": "液压泵与液压缸",
+    "domain": "机械基础",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "机械基础 第3章 轴系零件与液压",
+    "type": "procedural",
+    "description": "知道容积式液压泵靠密封容积变化吸排油，知道单杆活塞缸两腔面积不等导致往返速度与推力不同。",
+    "mastery_criteria": [
+      "能说明容积式泵的吸油排油原理",
+      "知道单杆活塞缸往返速度不等"
+    ],
+    "diagnostic_question": {
+      "question": "液压泵靠（　）实现吸油和排油。",
+      "answer": "密封容积的周期性变化"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_026",
+    "name": "尺寸、偏差与公差的基本术语",
+    "domain": "公差配合",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "公差配合 第1章 尺寸公差与配合",
+    "type": "procedural",
+    "description": "知道基本尺寸、实际尺寸、极限尺寸、上偏差、下偏差、公差六个术语的含义与换算关系。",
+    "mastery_criteria": [
+      "能用最大极限尺寸 = 基本尺寸 + 上偏差求极限尺寸",
+      "知道公差 = 上偏差 - 下偏差"
+    ],
+    "diagnostic_question": {
+      "question": "基本尺寸 20 mm，上偏差 +0.021 mm，下偏差 0，则公差为（　）。",
+      "answer": "0.021 mm"
+    },
+    "external": false,
+    "standards": [],
+    "root_reason": "公差配合从尺寸公差的基本术语起头：基本尺寸、偏差、公差是后面等级、配合、形位公差的共同语言，本身没有更早的先修。"
+  },
+  {
+    "id": "cnj_027",
+    "name": "标准公差与公差等级",
+    "domain": "公差配合",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "公差配合 第1章 尺寸公差与配合",
+    "type": "conceptual",
+    "description": "知道标准公差分 20 个等级、IT 表示标准公差，等级数字越小精度越高、公差越小、加工越难。",
+    "mastery_criteria": [
+      "知道 IT 的含义与等级数字大小和精度的关系",
+      "知道同一基本尺寸下等级越高公差越小"
+    ],
+    "diagnostic_question": {
+      "question": "同一基本尺寸下，公差等级 IT7 与 IT8 的公差值相比（　）。",
+      "answer": "IT7 更小"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_028",
+    "name": "配合的类型与基准制",
+    "domain": "公差配合",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "公差配合 第1章 尺寸公差与配合",
+    "type": "procedural",
+    "description": "知道间隙、过盈、过渡三种配合的判别依据，知道基孔制以 H 为基准孔、基轴制以 h 为基准轴。",
+    "mastery_criteria": [
+      "能按孔轴实际尺寸大小判断配合类型",
+      "知道 H 表示基准孔、h 表示基准轴"
+    ],
+    "diagnostic_question": {
+      "question": "孔的实际尺寸大于轴的实际尺寸，这种配合是（　）。",
+      "answer": "间隙配合"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_029",
+    "name": "表面粗糙度",
+    "domain": "公差配合",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "公差配合 第2章 表面粗糙度与形位公差",
+    "type": "conceptual",
+    "description": "知道表面粗糙度用 Ra（轮廓算术平均偏差）评定、单位为 μm，Ra 值越小表面越光滑、加工成本越高。",
+    "mastery_criteria": [
+      "知道 Ra 的含义与单位",
+      "知道 Ra 值越小表面越光滑、配合精度要求越高则 Ra 越小"
+    ],
+    "diagnostic_question": {
+      "question": "表面粗糙度评定参数 Ra 表示（　）。",
+      "answer": "轮廓算术平均偏差"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_030",
+    "name": "形状公差与位置公差",
+    "domain": "公差配合",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "公差配合 第2章 表面粗糙度与形位公差",
+    "type": "conceptual",
+    "description": "知道形状公差含直线度、平面度、圆度、圆柱度，位置公差含平行度、垂直度、同轴度、对称度、跳动等。",
+    "mastery_criteria": [
+      "能把圆度、直线度归入形状公差",
+      "能把平行度、垂直度、同轴度归入位置公差"
+    ],
+    "diagnostic_question": {
+      "question": "圆度公差属于（　）。",
+      "answer": "形状公差"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnc_p001",
+    "name": "多音字与形近字的读音",
+    "domain": "拼音",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "语文基础 第1章 语音与字形",
+    "type": "conceptual",
+    "description": "常见多音字在具体词语中的读音、形近字的声旁差异。",
+    "mastery_criteria": [
+      "能读准常见多音字在固定词语中的读音",
+      "能区分形近字的声母与韵母差异"
+    ],
+    "diagnostic_question": {
+      "question": "下列词语中读音完全正确的一项是（　）。",
+      "answer": "B"
+    },
+    "external": false,
+    "standards": [],
+    "root_reason": "语音与字形是语文基础的最底层能力，本模块从这里起。",
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p002",
+    "name": "常见易错字形",
+    "domain": "识字写字",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "语文基础 第1章 语音与字形",
+    "type": "conceptual",
+    "description": "同音字、形近字造成的常见错别字，用于字形的正误判断。",
+    "mastery_criteria": [
+      "能识别成语中的常见错别字",
+      "能在句子中判断字形正误"
+    ],
+    "diagnostic_question": {
+      "question": "下列词语中没有错别字的一项是（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p003",
+    "name": "近义词与词语搭配",
+    "domain": "词语",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "语文基础 第2章 词语与虚词",
+    "type": "conceptual",
+    "description": "同义、近义词语在语境中的差别，以及常见词语的固定搭配。",
+    "mastery_criteria": [
+      "能根据语境选择最恰当的近义词",
+      "能发现词语搭配不当的问题"
+    ],
+    "diagnostic_question": {
+      "question": "依次填入下列句子横线处的词语，最恰当的一项是（　）。①学校将________这次运动会的组织工作。②他经过反复________，终于明白了其中的道理。③这两件作品的风格十分________。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p004",
+    "name": "成语的意义与使用",
+    "domain": "词语",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "语文基础 第2章 词语与虚词",
+    "type": "conceptual",
+    "description": "常见成语的本义、感情色彩与使用对象，重点处理望文生义。",
+    "mastery_criteria": [
+      "能识别成语望文生义的误用",
+      "能判断成语的感情色彩是否与语境相符"
+    ],
+    "diagnostic_question": {
+      "question": "下列句子中成语使用正确的一项是（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p005",
+    "name": "关联词语与虚词",
+    "domain": "词语",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "语文基础 第2章 词语与虚词",
+    "type": "procedural",
+    "description": "复句中的关联词语搭配，以及常见虚词的用法与误用。",
+    "mastery_criteria": [
+      "能根据分句关系选择关联词语",
+      "能判断虚词使用是否得当"
+    ],
+    "diagnostic_question": {
+      "question": "依次填入下面句子横线处的关联词语，最恰当的一项是（　）。________我们付出了艰苦的努力，________取得了今天的成绩。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p006",
+    "name": "病句辨析",
+    "domain": "句子",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "语文基础 第3章 句子与标点",
+    "type": "procedural",
+    "description": "成分残缺、搭配不当、语序不当、结构混乱、否定不当等常见语病。",
+    "mastery_criteria": [
+      "能发现成分残缺与搭配不当",
+      "能识别两面对一面、否定不当等逻辑语病"
+    ],
+    "diagnostic_question": {
+      "question": "下列句子中没有语病的一项是（　）。",
+      "answer": "B"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p007",
+    "name": "标点符号的使用",
+    "domain": "句子",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "语文基础 第3章 句子与标点",
+    "type": "procedural",
+    "description": "引号、冒号、顿号、书名号、问号等常用标点的规范用法。",
+    "mastery_criteria": [
+      "能判断引号与句末标点的位置",
+      "能正确使用顿号、书名号与冒号"
+    ],
+    "diagnostic_question": {
+      "question": "下列句子中标点符号使用正确的一项是（　）。",
+      "answer": "C"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p008",
+    "name": "句式变换与扩缩句",
+    "domain": "句子",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "语文基础 第3章 句子与标点",
+    "type": "procedural",
+    "description": "长句缩句、短句扩句，以及主动句与被动句、陈述句与反问句的转换。",
+    "mastery_criteria": [
+      "能压缩长句保留主干",
+      "能在变换句式后保持原意不变"
+    ],
+    "diagnostic_question": {
+      "question": "下列对句子的缩写，最恰当的一项是（　）。原句：勤劳的中国人民用双手创造了灿烂的古代文化。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p009",
+    "name": "课标推荐名著常识",
+    "domain": "名著阅读",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "语文基础 第4章 名著常识",
+    "type": "conceptual",
+    "description": "《西游记》《水浒传》《三国演义》《红楼梦》《朝花夕拾》等名著的作者、体裁与关键情节。",
+    "mastery_criteria": [
+      "能正确对应名著与作者",
+      "能识别名著中的典型人物与情节"
+    ],
+    "diagnostic_question": {
+      "question": "《西游记》的作者是（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p010",
+    "name": "记叙文的内容理解与概括",
+    "domain": "阅读理解",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "语文阅读 第1章 现代文阅读",
+    "type": "procedural",
+    "description": "通过人物动作、语言、细节把握记叙文的内容与情感。",
+    "mastery_criteria": [
+      "能概括语段的主要事件与情感",
+      "能从细节描写推断人物心理与品质"
+    ],
+    "diagnostic_question": {
+      "question": "“那天放学后，雨下得很大。我站在教室门口发愁，忽然看见爸爸举着一把旧伞跑来，裤脚全湿透了。他把伞往我这边一倾，说：‘快走。’”语段主要表现的是（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p011",
+    "name": "说明文的信息筛选",
+    "domain": "阅读理解",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "语文阅读 第1章 现代文阅读",
+    "type": "procedural",
+    "description": "从说明性语段中提取对象、特征、数据，排除未提及或无依据的信息。",
+    "mastery_criteria": [
+      "能准确找出语段提及的信息",
+      "能排除语段未涉及或与原文相反的选项"
+    ],
+    "diagnostic_question": {
+      "question": "“共享单车依靠手机扫码开锁，车辆装有定位装置，用户可以通过应用查看附近车辆的位置。”语段没有提到的信息是（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p012",
+    "name": "议论文的论点与论据",
+    "domain": "阅读理解",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "语文阅读 第1章 现代文阅读",
+    "type": "procedural",
+    "description": "识别中心论点、支撑论据与论证方式，判断论据是否切题。",
+    "mastery_criteria": [
+      "能准确概括语段的中心论点",
+      "能为观点选出最有支撑力的论据"
+    ],
+    "diagnostic_question": {
+      "question": "“读书不是为了炫耀，而是为了让自己的判断更可靠。一个人读得越多，越知道自己无知。”语段的中心论点是（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p013",
+    "name": "词句含义与表达赏析",
+    "domain": "阅读理解",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "语文阅读 第1章 现代文阅读",
+    "type": "procedural",
+    "description": "理解词语的语境义与引申义，辨识比喻、拟人、夸张等修辞及其表达效果。",
+    "mastery_criteria": [
+      "能结合语境解释词语的深层含义",
+      "能辨识常见修辞并说明其作用"
+    ],
+    "diagnostic_question": {
+      "question": "“那盏灯，在我心里一直没有灭。”句中“灯”的含义是（　）。",
+      "answer": "B"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p014",
+    "name": "名句默写与诗句理解",
+    "domain": "古诗文积累",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "语文阅读 第2章 古诗文积累",
+    "type": "conceptual",
+    "description": "初高中常见名句的准确默写，以及诗句含义与作者归属。",
+    "mastery_criteria": [
+      "能准确默写常见名句",
+      "能对应诗句与作者、篇名"
+    ],
+    "diagnostic_question": {
+      "question": "下列诗句默写正确的一项是（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p015",
+    "name": "诗歌意象与情感",
+    "domain": "古诗文积累",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "语文阅读 第2章 古诗文积累",
+    "type": "conceptual",
+    "description": "月、柳、鸿雁、落日等常见意象的固定含义，以及诗歌情感基调的判断。",
+    "mastery_criteria": [
+      "能说出常见意象的固定含义",
+      "能判断诗句表达的主要情感"
+    ],
+    "diagnostic_question": {
+      "question": "“露从今夜白，月是故乡明”表达的情感是（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p016",
+    "name": "文言实词与词类活用",
+    "domain": "文言文阅读",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "语文阅读 第3章 文言文阅读",
+    "type": "conceptual",
+    "description": "通假字、古今异义与名词作动词等常见实词现象。",
+    "mastery_criteria": [
+      "能解释常见文言实词在句中的意思",
+      "能识别名词作动词等活用现象"
+    ],
+    "diagnostic_question": {
+      "question": "“学而时习之，不亦说乎”中“说”的意思是（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p017",
+    "name": "文言虚词与特殊句式",
+    "domain": "文言文阅读",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "语文阅读 第3章 文言文阅读",
+    "type": "procedural",
+    "description": "之、而、以、于等虚词的基本用法，以及判断句、被动句、宾语前置等句式。",
+    "mastery_criteria": [
+      "能判断常见虚词在句中的作用",
+      "能识别宾语前置、判断句等句式"
+    ],
+    "diagnostic_question": {
+      "question": "“学而时习之”中“而”的用法是（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p018",
+    "name": "文意理解与句子翻译",
+    "domain": "文言文阅读",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "语文阅读 第3章 文言文阅读",
+    "type": "procedural",
+    "description": "把文言句子译成通顺的现代汉语，并据此理解文段主旨与人生态度。",
+    "mastery_criteria": [
+      "能把关键文言句译成通顺的现代汉语",
+      "能概括文段表达的思想态度"
+    ],
+    "diagnostic_question": {
+      "question": "“三人行，必有我师焉”的意思是（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p019",
+    "name": "记叙文的要素与结构",
+    "domain": "习作基础",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "语文写作 第1章 记叙文写作",
+    "type": "procedural",
+    "description": "六要素、详略安排、环境描写与开头写法在记叙文中的运用。",
+    "mastery_criteria": [
+      "能判断材料是否适合写成记叙文",
+      "能按中心安排详略与开头"
+    ],
+    "diagnostic_question": {
+      "question": "记叙文的六要素不包括（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p020",
+    "name": "议论文的结构与论证",
+    "domain": "习作基础",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "语文写作 第2章 议论文与说明文",
+    "type": "procedural",
+    "description": "论点、论据与论证三要素，以及举例、道理、比喻、对比等论证方法。",
+    "mastery_criteria": [
+      "能提出明确的中心论点",
+      "能为论点选择切题的论据并识别论证方法"
+    ],
+    "diagnostic_question": {
+      "question": "议论文的三要素是（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p021",
+    "name": "说明文的顺序与方法",
+    "domain": "习作基础",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "语文写作 第2章 议论文与说明文",
+    "type": "procedural",
+    "description": "时间、空间、逻辑三种说明顺序，以及作比较、下定义、列数字等说明方法。",
+    "mastery_criteria": [
+      "能按说明对象选择说明顺序",
+      "能识别常见说明方法"
+    ],
+    "diagnostic_question": {
+      "question": "说明文常见的说明顺序不包括（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p022",
+    "name": "常用应用文的格式",
+    "domain": "习作基础",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "语文写作 第3章 应用文与语言运用",
+    "type": "procedural",
+    "description": "请假条、通知、书信、申请书、启事的标题、正文、署名与日期规范。",
+    "mastery_criteria": [
+      "能写清应用文的必备事项",
+      "能判断应用文格式是否规范"
+    ],
+    "diagnostic_question": {
+      "question": "写请假条时，正文一般应写明（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p023",
+    "name": "修辞手法的辨识与运用",
+    "domain": "习作基础",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "语文写作 第3章 应用文与语言运用",
+    "type": "procedural",
+    "description": "比喻、拟人、夸张、对偶、排比、设问、反问的辨识与表达效果。",
+    "mastery_criteria": [
+      "能准确辨识常见修辞手法",
+      "能说明修辞在具体句子中的作用"
+    ],
+    "diagnostic_question": {
+      "question": "“桃花潭水深千尺，不及汪伦送我情”使用的修辞是（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p024",
+    "name": "语言的简明、连贯与得体",
+    "domain": "习作基础",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "语文写作 第3章 应用文与语言运用",
+    "type": "procedural",
+    "description": "消除重复啰嗦，调整语序衔接，并根据对象与场合选择得体表达。",
+    "mastery_criteria": [
+      "能删改重复啰嗦的表述",
+      "能按语境排序并选择得体说法"
+    ],
+    "diagnostic_question": {
+      "question": "下列句子表达最简明的一项是（　）。",
+      "answer": "B"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cnc_p025",
+    "name": "拟题与开头结尾",
+    "domain": "习作基础",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "语文写作 第3章 应用文与语言运用",
+    "type": "procedural",
+    "description": "标题与内容、文体的匹配，开头入题与结尾收束、照应的写法。",
+    "mastery_criteria": [
+      "能拟出贴合内容的标题",
+      "能判断开头结尾是否点题、照应"
+    ],
+    "diagnostic_question": {
+      "question": "以“一次难忘的经历”为内容，下列标题最恰当的一项是（　）。",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "chinese"
+  },
+  {
+    "id": "cne_p001",
+    "name": "名词与冠词",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "英语语法 第1章 词类与冠词",
+    "type": "conceptual",
+    "description": "可数与不可数名词、复数形式，以及 a / an / the 的基本用法。",
+    "mastery_criteria": [
+      "能正确使用 a / an / the",
+      "能写出名词的正确复数形式"
+    ],
+    "diagnostic_question": {
+      "question": "Choose the correct sentence.",
+      "answer": "B"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english",
+    "root_reason": "名词与冠词是英语词法的起点，本模块从这里起。"
+  },
+  {
+    "id": "cne_p002",
+    "name": "代词",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "英语语法 第1章 词类与冠词",
+    "type": "conceptual",
+    "description": "人称、物主、反身、不定代词的基本用法与常见错误。",
+    "mastery_criteria": [
+      "能正确使用人称代词的主格与宾格",
+      "能使用反身代词和不定代词"
+    ],
+    "diagnostic_question": {
+      "question": "This is my book. Please give ____ to me.",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p003",
+    "name": "形容词与副词",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "英语语法 第1章 词类与冠词",
+    "type": "conceptual",
+    "description": "形容词、副词的比较级与最高级，以及 -ing 与 -ed 形容词的区别。",
+    "mastery_criteria": [
+      "能写出比较级与最高级",
+      "能区分形容词与副词的句法位置"
+    ],
+    "diagnostic_question": {
+      "question": "This book is ____ than that one.",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p004",
+    "name": "介词与介词短语",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "英语语法 第1章 词类与冠词",
+    "type": "conceptual",
+    "description": "时间、地点介词，以及 be good at、be famous for 等固定搭配。",
+    "mastery_criteria": [
+      "能区分 in / on / at 的时间用法",
+      "能使用常见介词固定搭配"
+    ],
+    "diagnostic_question": {
+      "question": "I was born ____ 2008.",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p005",
+    "name": "一般现在时、一般过去时与一般将来时",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "英语语法 第2章 动词与时态",
+    "type": "procedural",
+    "description": "三种基本时态的形式、时间状语与主谓一致。",
+    "mastery_criteria": [
+      "能根据时间状语选择时态",
+      "能在一般现在时中正确使用第三人称单数"
+    ],
+    "diagnostic_question": {
+      "question": "He ____ to school by bike every day.",
+      "answer": "B"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p006",
+    "name": "现在进行时与过去进行时",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "英语语法 第2章 动词与时态",
+    "type": "procedural",
+    "description": "be + doing 的两种进行时，以及进行时表示将来的用法。",
+    "mastery_criteria": [
+      "能构成现在进行时与过去进行时",
+      "能识别进行时的时间标志"
+    ],
+    "diagnostic_question": {
+      "question": "Look! The boys ____ basketball.",
+      "answer": "C"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p007",
+    "name": "现在完成时",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "英语语法 第2章 动词与时态",
+    "type": "procedural",
+    "description": "have/has + 过去分词，与 for、since、ever、yet 等标志词的搭配。",
+    "mastery_criteria": [
+      "能构成现在完成时",
+      "能区分 since 与 for 的用法"
+    ],
+    "diagnostic_question": {
+      "question": "I ____ this book twice.",
+      "answer": "B"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p008",
+    "name": "被动语态",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "英语语法 第2章 动词与时态",
+    "type": "procedural",
+    "description": "be + 过去分词构成被动，含情态动词被动与各时态被动。",
+    "mastery_criteria": [
+      "能把主动句改为被动句",
+      "能识别被动语态的标志"
+    ],
+    "diagnostic_question": {
+      "question": "The classroom ____ every day.",
+      "answer": "B"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p009",
+    "name": "情态动词",
+    "domain": "语法",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "英语语法 第2章 动词与时态",
+    "type": "conceptual",
+    "description": "can、may、must、need、should 的意义差别与否定形式。",
+    "mastery_criteria": [
+      "能区分 mustn't 与 needn't",
+      "能使用情态动词表推测"
+    ],
+    "diagnostic_question": {
+      "question": "You ____ finish it today; tomorrow is also OK.",
+      "answer": "B"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p010",
+    "name": "篇章主旨与标题",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "英语阅读 第1章 篇章理解",
+    "type": "procedural",
+    "description": "从段落中概括主旨、判断写作目的、选择最佳标题。",
+    "mastery_criteria": [
+      "能概括语段的主旨大意",
+      "能为短文选出最贴切的标题"
+    ],
+    "diagnostic_question": {
+      "question": "Read: \"Many students feel tired in the morning because they go to bed late. Doctors suggest sleeping eight hours a night.\" The main idea is ____.",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p011",
+    "name": "细节信息定位",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "英语阅读 第1章 篇章理解",
+    "type": "procedural",
+    "description": "从时间、价格、地点、要求等细节中定位具体信息并做简单换算。",
+    "mastery_criteria": [
+      "能准确找出时间、价格、地点等细节",
+      "能做简单的信息换算"
+    ],
+    "diagnostic_question": {
+      "question": "Read: \"The library opens at 8:30 a.m. and closes at 5:30 p.m. from Monday to Friday.\" The library is open ____.",
+      "answer": "B"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p012",
+    "name": "词义猜测",
+    "domain": "词汇",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "英语阅读 第1章 篇章理解",
+    "type": "procedural",
+    "description": "依据上下文线索（解释、对比、例子）猜测生词含义。",
+    "mastery_criteria": [
+      "能利用上下文线索猜出词义",
+      "能排除与语境矛盾的释义"
+    ],
+    "diagnostic_question": {
+      "question": "\"The old man was generous: he gave food to every poor child in the village.\" \"generous\" means ____.",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p013",
+    "name": "推理判断",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "英语阅读 第1章 篇章理解",
+    "type": "procedural",
+    "description": "依据人物动作、环境与语气推断未明说的信息。",
+    "mastery_criteria": [
+      "能根据细节推断人物状态或意图",
+      "能排除过度推断的选项"
+    ],
+    "diagnostic_question": {
+      "question": "\"Tom looked at the clock again and again, and kept walking to the window.\" We can infer that Tom was ____.",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p014",
+    "name": "完形填空的上下文线索",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "英语阅读 第1章 篇章理解",
+    "type": "procedural",
+    "description": "利用因果、转折、并列等逻辑关系选词填空。",
+    "mastery_criteria": [
+      "能根据上下文逻辑选词",
+      "能识别转折与因果连接词"
+    ],
+    "diagnostic_question": {
+      "question": "Choose the best word: \"It was raining hard. Mike opened his ____ and walked out.\"",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p015",
+    "name": "任务型阅读与表格填写",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "英语阅读 第2章 任务型阅读",
+    "type": "procedural",
+    "description": "把短文信息转成表格中的人物、时间、地点、所需物品等字段。",
+    "mastery_criteria": [
+      "能把短文信息对应到表格字段",
+      "能避免把不同字段的信息混淆"
+    ],
+    "diagnostic_question": {
+      "question": "Read: \"Name: Li Ming. Age: 16. Hobby: playing basketball. Dream: to be a coach.\" In the table, \"Dream: ____\".",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p016",
+    "name": "应用文信息提取",
+    "domain": "读写",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "英语阅读 第2章 任务型阅读",
+    "type": "procedural",
+    "description": "从通知、广告、邮件、标识中提取时间变更、要求、目的等信息。",
+    "mastery_criteria": [
+      "能提取通知与广告的关键信息",
+      "能判断标识与邮件的交际意图"
+    ],
+    "diagnostic_question": {
+      "question": "Notice: \"The school bus will leave at 7:40 instead of 7:20 tomorrow.\" Students should arrive ____.",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p017",
+    "name": "长难句理解",
+    "domain": "语法",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "英语阅读 第3章 长难句理解",
+    "type": "procedural",
+    "description": "含定语从句、让步状语从句、宾语从句和倒装的长句理解。",
+    "mastery_criteria": [
+      "能找出长句的主干",
+      "能理解从句与修饰成分的作用"
+    ],
+    "diagnostic_question": {
+      "question": "\"The book that you lent me last week is very useful.\" The sentence tells us the book ____.",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p018",
+    "name": "句子的基本结构",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "英语写作 第1章 句子写作",
+    "type": "procedural",
+    "description": "主谓宾基本语序、副词位置、there be 句型与否定疑问句的构成。",
+    "mastery_criteria": [
+      "能写出语序正确的简单句",
+      "能正确构成否定句与疑问句"
+    ],
+    "diagnostic_question": {
+      "question": "Choose the correct sentence.",
+      "answer": "B"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p019",
+    "name": "简单句与并列句的连接",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "英语写作 第1章 句子写作",
+    "type": "procedural",
+    "description": "用 and、but、or、so 连接分句，用 although、because 引导状语从句。",
+    "mastery_criteria": [
+      "能用并列连词连接两个分句",
+      "能避免逗号连接两个完整句"
+    ],
+    "diagnostic_question": {
+      "question": "Choose the correct sentence.",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p020",
+    "name": "定语从句与状语从句的写作运用",
+    "domain": "语法",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "英语写作 第1章 句子写作",
+    "type": "procedural",
+    "description": "who / which / that / whose / where 引导定语从句，when / although 引导状语从句。",
+    "mastery_criteria": [
+      "能选择正确的关系代词",
+      "能在写作中合理使用从句扩展信息"
+    ],
+    "diagnostic_question": {
+      "question": "The girl ____ is wearing a red coat is my sister.",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p021",
+    "name": "应用文写作：书信与邮件",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "英语写作 第2章 应用文写作",
+    "type": "procedural",
+    "description": "英文书信与电子邮件的称呼、正文、结尾敬语和署名规范。",
+    "mastery_criteria": [
+      "能写出规范的称呼与结尾",
+      "能按对象选择得体的语气"
+    ],
+    "diagnostic_question": {
+      "question": "In an English letter, the usual greeting is ____.",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p022",
+    "name": "应用文写作：通知与留言",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "英语写作 第2章 应用文写作",
+    "type": "procedural",
+    "description": "通知的标题与要点、电话留言的要素，以及请求的礼貌表达。",
+    "mastery_criteria": [
+      "能写出含时间地点要求的通知",
+      "能写清留言的来电人与事由"
+    ],
+    "diagnostic_question": {
+      "question": "A notice should begin with ____.",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p023",
+    "name": "要点提示与图表写作",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "英语写作 第3章 篇章写作",
+    "type": "procedural",
+    "description": "按要点提示或简单图表写短文，覆盖要点并做数据表述。",
+    "mastery_criteria": [
+      "能覆盖题目给出的全部要点",
+      "能用英语表述简单百分比与数据"
+    ],
+    "diagnostic_question": {
+      "question": "You are asked to write 60 words about \"My Weekend\". You should include ____.",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p024",
+    "name": "段落组织与连接词",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "英语写作 第3章 篇章写作",
+    "type": "procedural",
+    "description": "主题句、支撑句与结尾句的组织，以及 then、however、for example 等连接词。",
+    "mastery_criteria": [
+      "能写出明确的段落主题句",
+      "能用连接词使段落连贯"
+    ],
+    "diagnostic_question": {
+      "question": "Choose the best connector: \"First, we collected information. ____, we wrote the report.\"",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cne_p025",
+    "name": "常见写作错误与修改",
+    "domain": "读写",
+    "grade": 5,
+    "semester": "上",
+    "chapter": "英语写作 第3章 篇章写作",
+    "type": "procedural",
+    "description": "主谓一致、there be、时态形式、词性误用与从句连词重复等常见错误。",
+    "mastery_criteria": [
+      "能发现主谓一致与时态错误",
+      "能修正词性与连词使用错误"
+    ],
+    "diagnostic_question": {
+      "question": "Find the sentence with no mistake.",
+      "answer": "A"
+    },
+    "external": false,
+    "standards": [],
+    "subject": "english"
+  },
+  {
+    "id": "cnj_031",
+    "name": "职业安全与文明生产",
+    "domain": "技能应用",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "技能应用 第1章 安全、量具与工艺识读",
+    "type": "conceptual",
+    "description": "知道车工、钳工操作前的安全检查顺序，理解 5S 与文明生产的具体要求。",
+    "mastery_criteria": [
+      "能说出开机前检查机床手柄、润滑与空运转的顺序",
+      "能说明工件、量具、刀具分类定点摆放的要求"
+    ],
+    "diagnostic_question": {
+      "question": "操作车床前，首先应做的是（　）。",
+      "answer": "检查各手柄是否在正确位置、加润滑油并空运转试车"
+    },
+    "external": false,
+    "standards": [],
+    "root_reason": "技能应用部分从安全与文明生产开始，这是车工、钳工两个方向共同的底线要求。"
+  },
+  {
+    "id": "cnj_032",
+    "name": "常用量具的使用与读数",
+    "domain": "技能应用",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "技能应用 第1章 安全、量具与工艺识读",
+    "type": "procedural",
+    "description": "会用游标卡尺、千分尺测量外径与长度，能按精度读出读数。",
+    "mastery_criteria": [
+      "能正确读出 0.02mm 游标卡尺的读数",
+      "知道千分尺测量前要校对零位"
+    ],
+    "diagnostic_question": {
+      "question": "游标卡尺的主尺读数为 12mm，0.02mm 精度游标的第 6 条刻线与主尺刻线对齐，则读数为（　）。",
+      "answer": "12.12mm"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_033",
+    "name": "零件工艺识读与图纸要求",
+    "domain": "技能应用",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "技能应用 第1章 安全、量具与工艺识读",
+    "type": "conceptual",
+    "description": "能读零件图的标题栏、尺寸公差代号与技术要求，能按工艺卡确认加工顺序。",
+    "mastery_criteria": [
+      "能说明 φ50H7 中 H7 是尺寸公差带代号",
+      "能说出技术要求通常包含哪些内容"
+    ],
+    "diagnostic_question": {
+      "question": "零件图样上标注 φ50H7，其中 H7 表示（　）。",
+      "answer": "尺寸公差带代号"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_034",
+    "name": "划线",
+    "domain": "技能应用",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "技能应用 第2章 钳工基础操作",
+    "type": "procedural",
+    "description": "知道划线的工具、涂料与基准选择，理解借料的含义。",
+    "mastery_criteria": [
+      "能说出划线常用工具及各自用途",
+      "能说明毛坯余量不足时用借料处理"
+    ],
+    "diagnostic_question": {
+      "question": "划线在钳工加工中的主要作用是（　）。",
+      "answer": "确定加工界限和加工余量"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_035",
+    "name": "锯削",
+    "domain": "技能应用",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "技能应用 第2章 钳工基础操作",
+    "type": "procedural",
+    "description": "掌握锯弓锯条的选择、起锯方法与锯削姿势，能判断锯缝歪斜的原因。",
+    "mastery_criteria": [
+      "能按材料软硬选择粗齿或细齿锯条",
+      "能说出起锯时短行程、慢速度的要求"
+    ],
+    "diagnostic_question": {
+      "question": "锯削起锯时，正确的做法是（　）。",
+      "answer": "用拇指靠住锯条，短行程、慢速度起锯"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_036",
+    "name": "锉削",
+    "domain": "技能应用",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "技能应用 第2章 钳工基础操作",
+    "type": "procedural",
+    "description": "掌握平面锉削的方法与用力平衡，会用刀口形直尺检查平面度。",
+    "mastery_criteria": [
+      "能说明交叉锉用于粗加工、顺向锉用于精加工",
+      "知道锉削时两手压力要随行程调整"
+    ],
+    "diagnostic_question": {
+      "question": "粗锉平面时，为较快锉平并看清高低，常用的锉削方法是（　）。",
+      "answer": "交叉锉"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_037",
+    "name": "钻孔与铰孔",
+    "domain": "技能应用",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "技能应用 第2章 钳工基础操作",
+    "type": "procedural",
+    "description": "知道台钻钻孔的装夹与转速选择，理解铰孔余量与铰刀不许反转的要求。",
+    "mastery_criteria": [
+      "能说明钻头直径越大转速越低",
+      "能说出铰孔余量的大致范围"
+    ],
+    "diagnostic_question": {
+      "question": "在台钻上钻孔时，工件的正确装夹方式是（　）。",
+      "answer": "用机用平口钳或压板夹紧"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_038",
+    "name": "攻丝与装配",
+    "domain": "技能应用",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "技能应用 第2章 钳工基础操作",
+    "type": "procedural",
+    "description": "会算粗牙螺纹攻丝的底孔直径，掌握攻丝垂直、断屑与成组螺栓拧紧顺序。",
+    "mastery_criteria": [
+      "能按螺纹公称直径减螺距算底孔直径",
+      "知道成组螺栓应对称交叉分次拧紧"
+    ],
+    "diagnostic_question": {
+      "question": "攻 M10 粗牙螺纹（螺距 1.5mm），攻丝前底孔钻头直径一般取（　）。",
+      "answer": "8.5mm"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_039",
+    "name": "车床结构与操作规程",
+    "domain": "技能应用",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "技能应用 第3章 车工基础操作",
+    "type": "conceptual",
+    "description": "知道 CA6140 车床主要部件的作用，掌握开机前检查与操作中的禁止行为。",
+    "mastery_criteria": [
+      "能说出主轴箱、溜板箱、尾座各自的作用",
+      "知道车削中不准用手清除铁屑"
+    ],
+    "diagnostic_question": {
+      "question": "CA6140 车床主轴箱的主要作用是（　）。",
+      "answer": "使主轴获得多种转速并传递动力"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_040",
+    "name": "车刀安装与对刀",
+    "domain": "技能应用",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "技能应用 第3章 车工基础操作",
+    "type": "procedural",
+    "description": "知道车刀刀尖应与工件轴线等高、刀杆伸出不宜过长，理解对刀与试切法。",
+    "mastery_criteria": [
+      "能说明刀尖高于或低于中心对加工的影响",
+      "知道单件小批生产常用试切法对刀"
+    ],
+    "diagnostic_question": {
+      "question": "安装外圆车刀时，刀尖相对工件轴线的正确位置是（　）。",
+      "answer": "与工件轴线等高"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_041",
+    "name": "切削用量选择",
+    "domain": "技能应用",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "技能应用 第3章 车工基础操作",
+    "type": "procedural",
+    "description": "知道切削用量三要素，能区分粗加工与精加工的选择原则。",
+    "mastery_criteria": [
+      "能说出切削速度、进给量、背吃刀量三要素及单位",
+      "能说明精加工用小切深、小进给、较高速度"
+    ],
+    "diagnostic_question": {
+      "question": "车削的切削用量三要素是（　）。",
+      "answer": "切削速度、进给量、背吃刀量"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnj_042",
+    "name": "轴类零件外圆与端面车削",
+    "domain": "技能应用",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "技能应用 第3章 车工基础操作",
+    "type": "procedural",
+    "description": "知道轴类零件的装夹、车端面的进给方向与粗精车分工，能判断外圆产生锥度的原因。",
+    "mastery_criteria": [
+      "能说明车端面用横向进给",
+      "知道测量外圆直径应停车后进行"
+    ],
+    "diagnostic_question": {
+      "question": "在车床上车削外圆时，轴类零件常用的装夹方式是（　）。",
+      "answer": "三爪自定心卡盘装夹"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p001",
+    "name": "中国特色社会主义进入新时代",
+    "subject": "politics",
+    "domain": "价值引领",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "价值引领 第1章 新时代与中国梦",
+    "type": "conceptual",
+    "description": "知道新时代我国社会主要矛盾的变化，理解中国特色社会主义最本质的特征是中国共产党领导。",
+    "mastery_criteria": [
+      "能说出新时代我国社会主要矛盾是什么",
+      "能说明中国特色社会主义最本质的特征"
+    ],
+    "diagnostic_question": {
+      "question": "新时代我国社会主要矛盾是（　）。",
+      "answer": "人民日益增长的美好生活需要和不平衡不充分的发展之间的矛盾"
+    },
+    "external": false,
+    "standards": [],
+    "root_reason": "思政部分从新时代的历史方位讲起，后面国情、职业道德、法治都建立在这个判断上。"
+  },
+  {
+    "id": "cnz_p002",
+    "name": "中国梦与“两个一百年”奋斗目标",
+    "subject": "politics",
+    "domain": "价值引领",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "价值引领 第1章 新时代与中国梦",
+    "type": "conceptual",
+    "description": "知道中国梦的基本内涵，理解“两个一百年”奋斗目标与全面建成社会主义现代化强国的时间安排。",
+    "mastery_criteria": [
+      "能说出中国梦的基本内涵是国家富强、民族振兴、人民幸福",
+      "能说出第二个百年奋斗目标的时间节点"
+    ],
+    "diagnostic_question": {
+      "question": "中国梦的基本内涵是（　）。",
+      "answer": "国家富强、民族振兴、人民幸福"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p003",
+    "name": "中国共产党的领导",
+    "subject": "politics",
+    "domain": "价值引领",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "价值引领 第2章 党的领导与价值观",
+    "type": "conceptual",
+    "description": "理解中国共产党是最高政治领导力量，知道党的领导是中国特色社会主义制度的最大优势。",
+    "mastery_criteria": [
+      "能说明党的领导是中国特色社会主义最本质的特征",
+      "能说出党的根本宗旨是全心全意为人民服务"
+    ],
+    "diagnostic_question": {
+      "question": "中国特色社会主义最本质的特征是（　）。",
+      "answer": "中国共产党领导"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p004",
+    "name": "社会主义核心价值观",
+    "subject": "politics",
+    "domain": "价值引领",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "价值引领 第2章 党的领导与价值观",
+    "type": "conceptual",
+    "description": "记住社会主义核心价值观三个层面的 12 个词，能在具体情境中判断体现的是哪一层价值要求。",
+    "mastery_criteria": [
+      "能按国家、社会、个人三个层面完整说出 12 个词",
+      "能判断具体事例对应哪一层面的价值要求"
+    ],
+    "diagnostic_question": {
+      "question": "社会主义核心价值观中，属于公民个人层面的是（　）。",
+      "answer": "爱国、敬业、诚信、友善"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p005",
+    "name": "新发展理念",
+    "subject": "politics",
+    "domain": "价值引领",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "价值引领 第3章 发展与安全",
+    "type": "conceptual",
+    "description": "知道创新、协调、绿色、开放、共享五大发展理念，理解各自针对的发展问题。",
+    "mastery_criteria": [
+      "能完整说出五大发展理念",
+      "能说明创新是引领发展的第一动力"
+    ],
+    "diagnostic_question": {
+      "question": "新发展理念的内容是（　）。",
+      "answer": "创新、协调、绿色、开放、共享"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p006",
+    "name": "共同富裕与民生保障",
+    "subject": "politics",
+    "domain": "价值引领",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "价值引领 第3章 发展与安全",
+    "type": "conceptual",
+    "description": "理解共同富裕是社会主义的本质要求，知道就业、教育、医疗、养老等民生保障的基本内容。",
+    "mastery_criteria": [
+      "能说明共同富裕不是同步富裕、平均分配",
+      "能说出我国社会保障体系的主要组成部分"
+    ],
+    "diagnostic_question": {
+      "question": "关于共同富裕，正确的理解是（　）。",
+      "answer": "共同富裕是全体人民的富裕，不是少数人的富裕，也不是整齐划一的平均主义"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p007",
+    "name": "民族团结与总体国家安全观",
+    "subject": "politics",
+    "domain": "价值引领",
+    "grade": 1,
+    "semester": "上",
+    "chapter": "价值引领 第3章 发展与安全",
+    "type": "conceptual",
+    "description": "知道我国是统一的多民族国家，理解总体国家安全观涵盖政治、经济、文化、社会、生态等多个领域。",
+    "mastery_criteria": [
+      "能说明民族区域自治制度是我国的一项基本政治制度",
+      "能说出总体国家安全观以人民安全为宗旨"
+    ],
+    "diagnostic_question": {
+      "question": "总体国家安全观以（　）为宗旨。",
+      "answer": "人民安全"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p008",
+    "name": "我国的国家性质与人民代表大会制度",
+    "subject": "politics",
+    "domain": "国情常识",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "国情常识 第1章 国家制度",
+    "type": "conceptual",
+    "description": "知道我国是人民民主专政的社会主义国家，理解人民代表大会制度是我国的根本政治制度。",
+    "mastery_criteria": [
+      "能说出我国的国家性质",
+      "能说明全国人民代表大会是最高国家权力机关"
+    ],
+    "diagnostic_question": {
+      "question": "我国的根本政治制度是（　）。",
+      "answer": "人民代表大会制度"
+    },
+    "external": false,
+    "standards": [],
+    "root_reason": "国情部分从国家性质与根本政治制度开始，是理解经济、法治、生态各章的前提。"
+  },
+  {
+    "id": "cnz_p009",
+    "name": "我国的基本经济制度与分配制度",
+    "subject": "politics",
+    "domain": "国情常识",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "国情常识 第1章 国家制度",
+    "type": "conceptual",
+    "description": "知道公有制为主体、多种所有制经济共同发展，按劳分配为主体、多种分配方式并存，社会主义市场经济体制。",
+    "mastery_criteria": [
+      "能说出我国基本经济制度的三个方面",
+      "能说明按劳分配为主体、多种分配方式并存"
+    ],
+    "diagnostic_question": {
+      "question": "我国基本经济制度的内容不包括（　）。",
+      "answer": "按需分配"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p010",
+    "name": "社会主义民主与全面依法治国",
+    "subject": "politics",
+    "domain": "国情常识",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "国情常识 第2章 民主与法治",
+    "type": "conceptual",
+    "description": "理解全过程人民民主的含义，知道全面依法治国的总目标是建设中国特色社会主义法治体系、建设社会主义法治国家。",
+    "mastery_criteria": [
+      "能说明全过程人民民主是最广泛、最真实、最管用的民主",
+      "能说出全面依法治国的总目标"
+    ],
+    "diagnostic_question": {
+      "question": "全面依法治国的总目标是（　）。",
+      "answer": "建设中国特色社会主义法治体系、建设社会主义法治国家"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p011",
+    "name": "生态文明建设",
+    "subject": "politics",
+    "domain": "国情常识",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "国情常识 第2章 民主与法治",
+    "type": "conceptual",
+    "description": "理解绿水青山就是金山银山的理念，知道碳达峰、碳中和目标与绿色低碳生活方式。",
+    "mastery_criteria": [
+      "能说明“两山”理念的含义",
+      "能说出我国碳达峰、碳中和的时间目标"
+    ],
+    "diagnostic_question": {
+      "question": "我国提出的“双碳”目标是（　）。",
+      "answer": "2030 年前碳达峰、2060 年前碳中和"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p012",
+    "name": "科技创新与乡村振兴",
+    "subject": "politics",
+    "domain": "国情常识",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "国情常识 第3章 发展与开放",
+    "type": "conceptual",
+    "description": "知道创新驱动发展战略与乡村振兴战略的基本内容，理解产业兴旺、生态宜居、乡风文明、治理有效、生活富裕的总要求。",
+    "mastery_criteria": [
+      "能说出乡村振兴的总要求",
+      "能举例说明科技创新对产业的推动作用"
+    ],
+    "diagnostic_question": {
+      "question": "乡村振兴战略的总要求是（　）。",
+      "answer": "产业兴旺、生态宜居、乡风文明、治理有效、生活富裕"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p013",
+    "name": "时事政治与重要会议",
+    "subject": "politics",
+    "domain": "国情常识",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "国情常识 第3章 发展与开放",
+    "type": "conceptual",
+    "description": "了解全国人民代表大会、中国共产党全国代表大会等重大会议的职能与召开周期，能读懂会议公报的基本表述。",
+    "mastery_criteria": [
+      "能说出全国人民代表大会每年召开一次",
+      "能说出党的全国代表大会每五年举行一次"
+    ],
+    "diagnostic_question": {
+      "question": "全国人民代表大会会议一般（　）召开一次。",
+      "answer": "每年"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p014",
+    "name": "国际形势与人类命运共同体",
+    "subject": "politics",
+    "domain": "国情常识",
+    "grade": 2,
+    "semester": "上",
+    "chapter": "国情常识 第3章 发展与开放",
+    "type": "conceptual",
+    "description": "理解和平与发展仍是时代主题，知道构建人类命运共同体理念的基本内涵。",
+    "mastery_criteria": [
+      "能说明我国奉行独立自主的和平外交政策",
+      "能说出人类命运共同体倡导的核心价值"
+    ],
+    "diagnostic_question": {
+      "question": "我国外交政策的基本立场是（　）。",
+      "answer": "独立自主"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p015",
+    "name": "道德与法律的关系",
+    "subject": "politics",
+    "domain": "职业道德",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "职业道德 第1章 道德与职业规范",
+    "type": "conceptual",
+    "description": "理解道德与法律的联系与区别，知道二者都是社会规范，法律是底线、道德是更高要求。",
+    "mastery_criteria": [
+      "能说明道德与法律的联系与区别",
+      "能举例说明“法律是底线、道德是更高要求”"
+    ],
+    "diagnostic_question": {
+      "question": "关于道德与法律的关系，正确的说法是（　）。",
+      "answer": "二者相互联系、相互补充，法律是底线，道德是更高要求"
+    },
+    "external": false,
+    "standards": [],
+    "root_reason": "职业道德部分从道德与法律的关系讲起，后面各章都是这条底线与高线在职场中的具体化。"
+  },
+  {
+    "id": "cnz_p016",
+    "name": "社会公德",
+    "subject": "politics",
+    "domain": "职业道德",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "职业道德 第1章 道德与职业规范",
+    "type": "conceptual",
+    "description": "记住社会公德的主要内容，能在公共场所的具体情境中判断行为是否符合公德要求。",
+    "mastery_criteria": [
+      "能说出社会公德的主要内容",
+      "能判断公共场所具体行为是否违反社会公德"
+    ],
+    "diagnostic_question": {
+      "question": "社会公德的主要内容是（　）。",
+      "answer": "文明礼貌、助人为乐、爱护公物、保护环境、遵纪守法"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p017",
+    "name": "职业道德基本规范",
+    "subject": "politics",
+    "domain": "职业道德",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "职业道德 第2章 职业规范与职业精神",
+    "type": "conceptual",
+    "description": "记住职业道德的基本规范，理解每项规范在职场中的具体要求。",
+    "mastery_criteria": [
+      "能完整说出职业道德五项基本规范",
+      "能针对具体岗位说明规范如何落实"
+    ],
+    "diagnostic_question": {
+      "question": "职业道德的基本规范是（　）。",
+      "answer": "爱岗敬业、诚实守信、办事公道、服务群众、奉献社会"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p018",
+    "name": "爱岗敬业与诚实守信",
+    "subject": "politics",
+    "domain": "职业道德",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "职业道德 第2章 职业规范与职业精神",
+    "type": "conceptual",
+    "description": "理解爱岗敬业与诚实守信的具体要求，能判断职场中的失信行为及其后果。",
+    "mastery_criteria": [
+      "能说明爱岗敬业的具体表现",
+      "能判断职场失信行为并说明后果"
+    ],
+    "diagnostic_question": {
+      "question": "下列行为体现诚实守信的是（　）。",
+      "answer": "如实向客户说明产品的性能与保修范围"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p019",
+    "name": "服务群众与奉献社会",
+    "subject": "politics",
+    "domain": "职业道德",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "职业道德 第2章 职业规范与职业精神",
+    "type": "conceptual",
+    "description": "理解服务群众是职业道德的核心要求，知道奉献社会在日常岗位中的具体体现。",
+    "mastery_criteria": [
+      "能说明服务群众为什么是职业道德的核心",
+      "能举例说明平凡岗位上的奉献"
+    ],
+    "diagnostic_question": {
+      "question": "职业道德的核心要求是（　）。",
+      "answer": "服务群众"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p020",
+    "name": "职业生涯规划与择业观",
+    "subject": "politics",
+    "domain": "职业道德",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "职业道德 第3章 职业选择与职业精神",
+    "type": "procedural",
+    "description": "会用自我认知、职业认知、目标设定、行动计划的思路做职业生涯规划，树立正确的择业观。",
+    "mastery_criteria": [
+      "能说出职业生涯规划的基本步骤",
+      "能说明择业要兼顾个人兴趣与社会需要"
+    ],
+    "diagnostic_question": {
+      "question": "制定职业生涯规划，第一步通常是（　）。",
+      "answer": "进行自我分析，明确自己的兴趣、能力与特长"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p021",
+    "name": "劳动精神与工匠精神",
+    "subject": "politics",
+    "domain": "职业道德",
+    "grade": 3,
+    "semester": "上",
+    "chapter": "职业道德 第3章 职业选择与职业精神",
+    "type": "conceptual",
+    "description": "理解劳动精神、劳模精神、工匠精神的内涵，知道精益求精、专注执着在技能成长中的作用。",
+    "mastery_criteria": [
+      "能说出工匠精神的主要内涵",
+      "能说明技能人才靠什么实现从合格到优秀"
+    ],
+    "diagnostic_question": {
+      "question": "工匠精神的核心内涵是（　）。",
+      "answer": "执着专注、精益求精、一丝不苟、追求卓越"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p022",
+    "name": "宪法是根本法",
+    "subject": "politics",
+    "domain": "法治观念",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "法治观念 第1章 宪法与公民权利义务",
+    "type": "conceptual",
+    "description": "理解宪法在国家法律体系中的地位和最高法律效力，知道宪法的基本原则。",
+    "mastery_criteria": [
+      "能说明宪法具有最高法律效力",
+      "能说出国家尊重和保障人权是宪法原则"
+    ],
+    "diagnostic_question": {
+      "question": "在我国法律体系中，具有最高法律效力的是（　）。",
+      "answer": "宪法"
+    },
+    "external": false,
+    "standards": [],
+    "root_reason": "法治部分从宪法讲起：先懂根本法，才谈得上公民权利、违法与维权。"
+  },
+  {
+    "id": "cnz_p023",
+    "name": "公民基本权利与义务",
+    "subject": "politics",
+    "domain": "法治观念",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "法治观念 第1章 宪法与公民权利义务",
+    "type": "conceptual",
+    "description": "知道公民的基本权利与基本义务，理解权利与义务相统一。",
+    "mastery_criteria": [
+      "能列举公民的基本权利与基本义务",
+      "能说明权利与义务相统一"
+    ],
+    "diagnostic_question": {
+      "question": "关于公民权利与义务，正确的理解是（　）。",
+      "answer": "权利与义务相统一，享受权利的同时必须履行义务"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p024",
+    "name": "违法与犯罪",
+    "subject": "politics",
+    "domain": "法治观念",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "法治观念 第2章 违法与法律责任",
+    "type": "conceptual",
+    "description": "区分一般违法与犯罪，知道犯罪的基本特征和承担法律责任的方式。",
+    "mastery_criteria": [
+      "能区分一般违法行为与犯罪行为",
+      "能说出犯罪的三个基本特征"
+    ],
+    "diagnostic_question": {
+      "question": "犯罪的最本质特征是（　）。",
+      "answer": "严重的社会危害性"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p025",
+    "name": "治安管理与常见违法行为",
+    "subject": "politics",
+    "domain": "法治观念",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "法治观念 第2章 违法与法律责任",
+    "type": "conceptual",
+    "description": "知道治安管理处罚的种类，能判断打架斗殴、寻衅滋事、故意损毁财物等常见违法行为的法律后果。",
+    "mastery_criteria": [
+      "能说出治安管理处罚的主要种类",
+      "能判断常见治安违法行为及其后果"
+    ],
+    "diagnostic_question": {
+      "question": "治安管理处罚的种类不包括（　）。",
+      "answer": "有期徒刑"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p026",
+    "name": "劳动法与劳动合同",
+    "subject": "politics",
+    "domain": "法治观念",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "法治观念 第3章 劳动与职业法律",
+    "type": "procedural",
+    "description": "知道劳动合同应当具备的条款，理解试用期、工作时间、工资支付和解除合同的基本规则。",
+    "mastery_criteria": [
+      "能说出劳动合同的必备条款",
+      "能说明用人单位应当依法支付劳动报酬"
+    ],
+    "diagnostic_question": {
+      "question": "建立劳动关系，应当订立（　）。",
+      "answer": "书面劳动合同"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p027",
+    "name": "未成年人保护与预防犯罪",
+    "subject": "politics",
+    "domain": "法治观念",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "法治观念 第3章 劳动与职业法律",
+    "type": "conceptual",
+    "description": "知道未成年人保护的家庭、学校、社会、网络、政府、司法六大保护，理解不良行为的矫治要求。",
+    "mastery_criteria": [
+      "能说出未成年人保护的六大保护",
+      "能说明严重不良行为应如何处置"
+    ],
+    "diagnostic_question": {
+      "question": "未成年人保护法规定的保护体系包括（　）。",
+      "answer": "家庭保护、学校保护、社会保护、网络保护、政府保护、司法保护"
+    },
+    "external": false,
+    "standards": []
+  },
+  {
+    "id": "cnz_p028",
+    "name": "依法维权与诉讼途径",
+    "subject": "politics",
+    "domain": "法治观念",
+    "grade": 4,
+    "semester": "上",
+    "chapter": "法治观念 第4章 依法维权",
+    "type": "procedural",
+    "description": "知道协商、调解、仲裁、诉讼等纠纷解决途径，理解诉讼的基本类型与举证要求。",
+    "mastery_criteria": [
+      "能按纠纷类型选择合适的维权途径",
+      "能说出民事诉讼、刑事诉讼、行政诉讼的区别"
+    ],
+    "diagnostic_question": {
+      "question": "劳动者与用人单位因工资发生争议，可以直接向劳动争议仲裁委员会申请（　）。",
+      "answer": "仲裁"
+    },
+    "external": false,
+    "standards": []
+  }
+]
